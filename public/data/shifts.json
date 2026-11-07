@@ -1,0 +1,14 @@
+[
+ {
+  "id": "Morning",
+  "name": "Morning",
+  "startTime": "07:30",
+  "endTime": "12:30"
+ },
+ {
+  "id": "Day",
+  "name": "Day",
+  "startTime": "12:45",
+  "endTime": "17:30"
+ }
+]

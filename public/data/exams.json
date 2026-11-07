@@ -1,0 +1,163 @@
+[
+ {
+  "id": "2026-first",
+  "session": "2026",
+  "key": "first",
+  "name": "First Term",
+  "type": "school",
+  "programs": [
+   "I",
+   "II",
+   "III",
+   "IV",
+   "V",
+   "VI",
+   "VII",
+   "VIII",
+   "IX",
+   "X"
+  ],
+  "status": "published",
+  "entryStart": "2026-03-20",
+  "entryEnd": "2026-04-04",
+  "extensionsUsed": 0,
+  "note": "",
+  "signatures": [
+   {
+    "role": "vice_principal",
+    "name": "Mrs. Rokeya Sultana",
+    "at": "2026-04-12",
+    "action": "reviewed"
+   },
+   {
+    "role": "principal",
+    "name": "Lt Col Byzid Mohammad Tareq Junaed",
+    "at": "2026-04-14",
+    "action": "signed"
+   }
+  ]
+ },
+ {
+  "id": "2026-second",
+  "session": "2026",
+  "key": "second",
+  "name": "Second Term",
+  "type": "school",
+  "programs": [
+   "I",
+   "II",
+   "III",
+   "IV",
+   "V",
+   "VI",
+   "VII",
+   "VIII",
+   "IX",
+   "X"
+  ],
+  "status": "published",
+  "entryStart": "2026-07-10",
+  "entryEnd": "2026-07-25",
+  "extensionsUsed": 0,
+  "note": "",
+  "signatures": [
+   {
+    "role": "vice_principal",
+    "name": "Mrs. Rokeya Sultana",
+    "at": "2026-08-02",
+    "action": "reviewed"
+   },
+   {
+    "role": "principal",
+    "name": "Lt Col Byzid Mohammad Tareq Junaed",
+    "at": "2026-08-03",
+    "action": "signed"
+   }
+  ]
+ },
+ {
+  "id": "2026-final",
+  "session": "2026",
+  "key": "final",
+  "name": "Final Term",
+  "type": "school",
+  "programs": [
+   "I",
+   "II",
+   "III",
+   "IV",
+   "V",
+   "VI",
+   "VII",
+   "VIII",
+   "IX"
+  ],
+  "status": "entry_open",
+  "entryStart": "2026-11-02",
+  "entryEnd": "2026-11-17",
+  "extensionsUsed": 0,
+  "note": "",
+  "signatures": []
+ },
+ {
+  "id": "2026-pretest",
+  "session": "2026",
+  "key": "pretest",
+  "name": "Pre-Test",
+  "type": "school",
+  "programs": [
+   "X"
+  ],
+  "status": "published",
+  "entryStart": "2026-09-05",
+  "entryEnd": "2026-09-20",
+  "extensionsUsed": 0,
+  "note": "",
+  "signatures": [
+   {
+    "role": "vice_principal",
+    "name": "Mrs. Rokeya Sultana",
+    "at": "2026-09-28",
+    "action": "reviewed"
+   },
+   {
+    "role": "principal",
+    "name": "Lt Col Byzid Mohammad Tareq Junaed",
+    "at": "2026-09-29",
+    "action": "signed"
+   }
+  ]
+ },
+ {
+  "id": "2026-finaltest",
+  "session": "2026",
+  "key": "finaltest",
+  "name": "Final Test",
+  "type": "school",
+  "programs": [
+   "X"
+  ],
+  "status": "sent",
+  "entryStart": "2026-10-15",
+  "entryEnd": "2026-10-30",
+  "extensionsUsed": 0,
+  "note": "Sent to Principal/VP on 2 Nov 2026",
+  "signatures": []
+ },
+ {
+  "id": "2026-ssc",
+  "session": "2026",
+  "key": "ssc",
+  "name": "SSC (Board Exam)",
+  "type": "board",
+  "programs": [
+   "X"
+  ],
+  "status": "board",
+  "entryStart": "2027-02-01",
+  "entryEnd": "2027-05-30",
+  "extensionsUsed": 0,
+  "note": "Board result is entered by the IT Head after the Board publishes it.",
+  "signatures": []
+ }
+]

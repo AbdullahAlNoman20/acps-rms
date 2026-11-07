@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { -webkit-text-size-adjust: 100%; }
+  body { @apply bg-cream-50 font-sans text-ink-800 antialiased; padding-bottom: env(safe-area-inset-bottom); }
+  input, select, textarea, button { font-family: inherit; }
+  h1, h2, h3 { text-wrap: balance; }
+}
+
+/* Printing a result / report: hide menus and buttons, show the page full width. */
+@media print {
+  html, body, #root { height: auto !important; overflow: visible !important; background: #fff !important; }
+  .no-print { display: none !important; }
+  main { overflow: visible !important; padding: 0 !important; }
+  .print-sheet { border: none !important; box-shadow: none !important; }
+  @page { size: A4; margin: 10mm; }
+}

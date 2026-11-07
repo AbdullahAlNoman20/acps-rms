@@ -1,0 +1,15 @@
+[
+ {
+  "id": "main",
+  "schoolName": "Adamjee Cantonment Public School",
+  "schoolNameBn": "আদমজী ক্যান্টনমেন্ট পাবলিক স্কুল",
+  "address": "Dhaka Cantonment, Dhaka-1206",
+  "phone": "02-9834876",
+  "website": "www.acps.edu.bd",
+  "email": "info@acps.edu.bd",
+  "principalName": "Lt Col Byzid Mohammad Tareq Junaed",
+  "currentSession": "2026",
+  "officePhone": "02-9834876",
+  "smsGateway": "Not connected yet (messages are saved in the SMS log)"
+ }
+]

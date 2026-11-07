@@ -1,0 +1,66 @@
+[
+ {
+  "id": "T01",
+  "name": "Md. Abdul Karim",
+  "designation": "Assistant Teacher (Mathematics)",
+  "phone": "01711-000010",
+  "email": "teacher1@acps.edu.bd",
+  "userId": "U-T1"
+ },
+ {
+  "id": "T02",
+  "name": "Md. Nurul Islam",
+  "designation": "Assistant Teacher (Bangla)",
+  "phone": "01711-000011",
+  "email": "teacher2@acps.edu.bd",
+  "userId": "U-T2"
+ },
+ {
+  "id": "T03",
+  "name": "Mrs. Farhana Yasmin",
+  "designation": "Assistant Teacher (English)",
+  "phone": "01711-000012",
+  "email": "teacher3@acps.edu.bd",
+  "userId": "U-T3"
+ },
+ {
+  "id": "T04",
+  "name": "Mrs. Shirin Akter",
+  "designation": "Senior Teacher (Science)",
+  "phone": "01711-000013",
+  "email": "teacher4@acps.edu.bd",
+  "userId": "U-T4"
+ },
+ {
+  "id": "T05",
+  "name": "Md. Rafiqul Hasan",
+  "designation": "Assistant Teacher (Religion and Social Science)",
+  "phone": "01711-000014",
+  "email": "teacher5@acps.edu.bd",
+  "userId": "U-T5"
+ },
+ {
+  "id": "T06",
+  "name": "Mr. Kamal Hossain",
+  "designation": "Assistant Teacher (ICT and Business Studies)",
+  "phone": "01711-000015",
+  "email": "teacher6@acps.edu.bd",
+  "userId": "U-T6"
+ },
+ {
+  "id": "T07",
+  "name": "Mrs. Nasrin Sultana",
+  "designation": "Assistant Teacher (Life Skills)",
+  "phone": "01711-000016",
+  "email": "teacher7@acps.edu.bd",
+  "userId": "U-T7"
+ },
+ {
+  "id": "T08",
+  "name": "Md. Shahidul Alam",
+  "designation": "Assistant Teacher (Humanities)",
+  "phone": "01711-000017",
+  "email": "teacher8@acps.edu.bd",
+  "userId": "U-T8"
+ }
+]

@@ -1,0 +1,1004 @@
+[
+ {
+  "id": "cur-I-General",
+  "program": "I",
+  "group": "General",
+  "note": "Subjects of this class and group",
+  "courses": [
+   {
+    "code": "P01",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "P02",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "P03",
+    "role": "main",
+    "religion": ""
+   }
+  ]
+ },
+ {
+  "id": "cur-II-General",
+  "program": "II",
+  "group": "General",
+  "note": "Subjects of this class and group",
+  "courses": [
+   {
+    "code": "P01",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "P02",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "P03",
+    "role": "main",
+    "religion": ""
+   }
+  ]
+ },
+ {
+  "id": "cur-III-General",
+  "program": "III",
+  "group": "General",
+  "note": "Subjects of this class and group",
+  "courses": [
+   {
+    "code": "P01",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "P02",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "P03",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "P04",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "P05",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "P06",
+    "role": "main",
+    "religion": "Islam"
+   },
+   {
+    "code": "P07",
+    "role": "main",
+    "religion": "Hindu"
+   },
+   {
+    "code": "P08",
+    "role": "main",
+    "religion": "Buddhist"
+   },
+   {
+    "code": "P09",
+    "role": "main",
+    "religion": "Christian"
+   }
+  ]
+ },
+ {
+  "id": "cur-IV-General",
+  "program": "IV",
+  "group": "General",
+  "note": "Subjects of this class and group",
+  "courses": [
+   {
+    "code": "P01",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "P02",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "P03",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "P04",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "P05",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "P06",
+    "role": "main",
+    "religion": "Islam"
+   },
+   {
+    "code": "P07",
+    "role": "main",
+    "religion": "Hindu"
+   },
+   {
+    "code": "P08",
+    "role": "main",
+    "religion": "Buddhist"
+   },
+   {
+    "code": "P09",
+    "role": "main",
+    "religion": "Christian"
+   }
+  ]
+ },
+ {
+  "id": "cur-V-General",
+  "program": "V",
+  "group": "General",
+  "note": "Subjects of this class and group",
+  "courses": [
+   {
+    "code": "P01",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "P02",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "P03",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "P04",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "P05",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "P06",
+    "role": "main",
+    "religion": "Islam"
+   },
+   {
+    "code": "P07",
+    "role": "main",
+    "religion": "Hindu"
+   },
+   {
+    "code": "P08",
+    "role": "main",
+    "religion": "Buddhist"
+   },
+   {
+    "code": "P09",
+    "role": "main",
+    "religion": "Christian"
+   }
+  ]
+ },
+ {
+  "id": "cur-VI-General",
+  "program": "VI",
+  "group": "General",
+  "note": "Subjects of this class and group",
+  "courses": [
+   {
+    "code": "101",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "102",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "107",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "108",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "109",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "127",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "150",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "154",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "111",
+    "role": "main",
+    "religion": "Islam"
+   },
+   {
+    "code": "112",
+    "role": "main",
+    "religion": "Hindu"
+   },
+   {
+    "code": "113",
+    "role": "main",
+    "religion": "Buddhist"
+   },
+   {
+    "code": "114",
+    "role": "main",
+    "religion": "Christian"
+   },
+   {
+    "code": "147",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "M01",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "M02",
+    "role": "main",
+    "religion": ""
+   }
+  ]
+ },
+ {
+  "id": "cur-VII-General",
+  "program": "VII",
+  "group": "General",
+  "note": "Subjects of this class and group",
+  "courses": [
+   {
+    "code": "101",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "102",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "107",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "108",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "109",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "127",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "150",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "154",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "111",
+    "role": "main",
+    "religion": "Islam"
+   },
+   {
+    "code": "112",
+    "role": "main",
+    "religion": "Hindu"
+   },
+   {
+    "code": "113",
+    "role": "main",
+    "religion": "Buddhist"
+   },
+   {
+    "code": "114",
+    "role": "main",
+    "religion": "Christian"
+   },
+   {
+    "code": "147",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "M01",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "M02",
+    "role": "main",
+    "religion": ""
+   }
+  ]
+ },
+ {
+  "id": "cur-VIII-General",
+  "program": "VIII",
+  "group": "General",
+  "note": "Subjects of this class and group",
+  "courses": [
+   {
+    "code": "101",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "102",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "107",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "108",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "109",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "127",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "150",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "154",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "111",
+    "role": "main",
+    "religion": "Islam"
+   },
+   {
+    "code": "112",
+    "role": "main",
+    "religion": "Hindu"
+   },
+   {
+    "code": "113",
+    "role": "main",
+    "religion": "Buddhist"
+   },
+   {
+    "code": "114",
+    "role": "main",
+    "religion": "Christian"
+   },
+   {
+    "code": "147",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "M01",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "M02",
+    "role": "main",
+    "religion": ""
+   }
+  ]
+ },
+ {
+  "id": "cur-IX-Science",
+  "program": "IX",
+  "group": "Science",
+  "note": "Subjects of this class and group",
+  "courses": [
+   {
+    "code": "101",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "102",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "107",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "108",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "109",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "111",
+    "role": "main",
+    "religion": "Islam"
+   },
+   {
+    "code": "112",
+    "role": "main",
+    "religion": "Hindu"
+   },
+   {
+    "code": "113",
+    "role": "main",
+    "religion": "Buddhist"
+   },
+   {
+    "code": "114",
+    "role": "main",
+    "religion": "Christian"
+   },
+   {
+    "code": "154",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "150",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "136",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "137",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "138",
+    "role": "mainOrFourth",
+    "religion": ""
+   },
+   {
+    "code": "126",
+    "role": "mainOrFourth",
+    "religion": ""
+   },
+   {
+    "code": "CE",
+    "role": "main",
+    "religion": ""
+   }
+  ]
+ },
+ {
+  "id": "cur-X-Science",
+  "program": "X",
+  "group": "Science",
+  "note": "Subjects of this class and group",
+  "courses": [
+   {
+    "code": "101",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "102",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "107",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "108",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "109",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "111",
+    "role": "main",
+    "religion": "Islam"
+   },
+   {
+    "code": "112",
+    "role": "main",
+    "religion": "Hindu"
+   },
+   {
+    "code": "113",
+    "role": "main",
+    "religion": "Buddhist"
+   },
+   {
+    "code": "114",
+    "role": "main",
+    "religion": "Christian"
+   },
+   {
+    "code": "154",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "150",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "136",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "137",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "138",
+    "role": "mainOrFourth",
+    "religion": ""
+   },
+   {
+    "code": "126",
+    "role": "mainOrFourth",
+    "religion": ""
+   },
+   {
+    "code": "CE",
+    "role": "main",
+    "religion": ""
+   }
+  ]
+ },
+ {
+  "id": "cur-IX-Commerce",
+  "program": "IX",
+  "group": "Commerce",
+  "note": "Subjects of this class and group",
+  "courses": [
+   {
+    "code": "101",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "102",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "107",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "108",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "109",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "111",
+    "role": "main",
+    "religion": "Islam"
+   },
+   {
+    "code": "112",
+    "role": "main",
+    "religion": "Hindu"
+   },
+   {
+    "code": "113",
+    "role": "main",
+    "religion": "Buddhist"
+   },
+   {
+    "code": "114",
+    "role": "main",
+    "religion": "Christian"
+   },
+   {
+    "code": "154",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "146",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "143",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "152",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "127",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "134",
+    "role": "fourthOnly",
+    "religion": ""
+   },
+   {
+    "code": "151",
+    "role": "fourthOnly",
+    "religion": ""
+   },
+   {
+    "code": "CE",
+    "role": "main",
+    "religion": ""
+   }
+  ]
+ },
+ {
+  "id": "cur-X-Commerce",
+  "program": "X",
+  "group": "Commerce",
+  "note": "Subjects of this class and group",
+  "courses": [
+   {
+    "code": "101",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "102",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "107",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "108",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "109",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "111",
+    "role": "main",
+    "religion": "Islam"
+   },
+   {
+    "code": "112",
+    "role": "main",
+    "religion": "Hindu"
+   },
+   {
+    "code": "113",
+    "role": "main",
+    "religion": "Buddhist"
+   },
+   {
+    "code": "114",
+    "role": "main",
+    "religion": "Christian"
+   },
+   {
+    "code": "154",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "146",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "143",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "152",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "127",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "134",
+    "role": "fourthOnly",
+    "religion": ""
+   },
+   {
+    "code": "151",
+    "role": "fourthOnly",
+    "religion": ""
+   },
+   {
+    "code": "CE",
+    "role": "main",
+    "religion": ""
+   }
+  ]
+ },
+ {
+  "id": "cur-IX-Arts",
+  "program": "IX",
+  "group": "Arts",
+  "note": "Subjects of this class and group",
+  "courses": [
+   {
+    "code": "101",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "102",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "107",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "108",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "109",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "111",
+    "role": "main",
+    "religion": "Islam"
+   },
+   {
+    "code": "112",
+    "role": "main",
+    "religion": "Hindu"
+   },
+   {
+    "code": "113",
+    "role": "main",
+    "religion": "Buddhist"
+   },
+   {
+    "code": "114",
+    "role": "main",
+    "religion": "Christian"
+   },
+   {
+    "code": "154",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "153",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "110",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "141",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "127",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "134",
+    "role": "fourthOnly",
+    "religion": ""
+   },
+   {
+    "code": "151",
+    "role": "fourthOnly",
+    "religion": ""
+   },
+   {
+    "code": "CE",
+    "role": "main",
+    "religion": ""
+   }
+  ]
+ },
+ {
+  "id": "cur-X-Arts",
+  "program": "X",
+  "group": "Arts",
+  "note": "Subjects of this class and group",
+  "courses": [
+   {
+    "code": "101",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "102",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "107",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "108",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "109",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "111",
+    "role": "main",
+    "religion": "Islam"
+   },
+   {
+    "code": "112",
+    "role": "main",
+    "religion": "Hindu"
+   },
+   {
+    "code": "113",
+    "role": "main",
+    "religion": "Buddhist"
+   },
+   {
+    "code": "114",
+    "role": "main",
+    "religion": "Christian"
+   },
+   {
+    "code": "154",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "153",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "110",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "141",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "127",
+    "role": "main",
+    "religion": ""
+   },
+   {
+    "code": "134",
+    "role": "fourthOnly",
+    "religion": ""
+   },
+   {
+    "code": "151",
+    "role": "fourthOnly",
+    "religion": ""
+   },
+   {
+    "code": "CE",
+    "role": "main",
+    "religion": ""
+   }
+  ]
+ }
+]

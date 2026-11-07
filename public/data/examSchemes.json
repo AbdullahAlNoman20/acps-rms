@@ -1,0 +1,88 @@
+[
+ {
+  "id": "standard",
+  "name": "Standard (Class I-IX)",
+  "programs": [
+   "I",
+   "II",
+   "III",
+   "IV",
+   "V",
+   "VI",
+   "VII",
+   "VIII",
+   "IX"
+  ],
+  "method": "Weighted",
+  "note": "First 25% + Second 25% + Final 50%",
+  "exams": [
+   {
+    "key": "first",
+    "name": "First Term",
+    "type": "school",
+    "weight": 25,
+    "include": "Yes"
+   },
+   {
+    "key": "second",
+    "name": "Second Term",
+    "type": "school",
+    "weight": 25,
+    "include": "Yes"
+   },
+   {
+    "key": "final",
+    "name": "Final Term",
+    "type": "school",
+    "weight": 50,
+    "include": "Yes"
+   }
+  ]
+ },
+ {
+  "id": "class10",
+  "name": "Class X (SSC route)",
+  "programs": [
+   "X"
+  ],
+  "method": "Weighted",
+  "note": "Four school exams, then the SSC Board Exam. Weights are an assumption.",
+  "exams": [
+   {
+    "key": "first",
+    "name": "First Term",
+    "type": "school",
+    "weight": 20,
+    "include": "Yes"
+   },
+   {
+    "key": "second",
+    "name": "Second Term",
+    "type": "school",
+    "weight": 20,
+    "include": "Yes"
+   },
+   {
+    "key": "pretest",
+    "name": "Pre-Test",
+    "type": "school",
+    "weight": 25,
+    "include": "Yes"
+   },
+   {
+    "key": "finaltest",
+    "name": "Final Test",
+    "type": "school",
+    "weight": 35,
+    "include": "Yes"
+   },
+   {
+    "key": "ssc",
+    "name": "SSC (Board Exam)",
+    "type": "board",
+    "weight": 0,
+    "include": "No"
+   }
+  ]
+ }
+]

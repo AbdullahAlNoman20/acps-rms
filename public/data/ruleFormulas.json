@@ -1,0 +1,42 @@
+[
+ {
+  "id": "componentConvert",
+  "key": "componentConvert",
+  "label": "Component marks after conversion",
+  "expr": "raw * pr / 100",
+  "vars": "raw, pr",
+  "note": "raw = marks obtained, pr = PR% from Mark Distribution."
+ },
+ {
+  "id": "scaleTo100",
+  "key": "scaleTo100",
+  "label": "Subject total on 100 scale",
+  "expr": "total * mj",
+  "vars": "total, mj, full",
+  "note": "mj = multiply-by (ICT 50 marks uses 2)."
+ },
+ {
+  "id": "fourthBonus",
+  "key": "fourthBonus",
+  "label": "4th subject bonus point",
+  "expr": "max(gp - deduct, 0)",
+  "vars": "gp, deduct",
+  "note": "Only the part above the deduct value is added."
+ },
+ {
+  "id": "gpa",
+  "key": "gpa",
+  "label": "GPA",
+  "expr": "min(cap, (sumGp + bonus) / divisor)",
+  "vars": "sumGp, bonus, divisor, cap",
+  "note": "divisor = No of subjects for GPA division."
+ },
+ {
+  "id": "aggregatePart",
+  "key": "aggregatePart",
+  "label": "Aggregate part of one exam",
+  "expr": "value * weight / 100",
+  "vars": "value, weight",
+  "note": "Weights come from the Exam Scheme."
+ }
+]

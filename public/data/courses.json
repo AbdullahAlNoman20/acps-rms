@@ -1,0 +1,298 @@
+[
+ {
+  "id": "P01",
+  "code": "P01",
+  "name": "Bangla (Primary)",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "P02",
+  "code": "P02",
+  "name": "English (Primary)",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "P03",
+  "code": "P03",
+  "name": "Mathematics (Primary)",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "P04",
+  "code": "P04",
+  "name": "Science (Primary)",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "P05",
+  "code": "P05",
+  "name": "Bangladesh & Global Studies (Primary)",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "P06",
+  "code": "P06",
+  "name": "Islam & Moral Education (Primary)",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "P07",
+  "code": "P07",
+  "name": "Hindu Religion & Moral Education (Primary)",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "P08",
+  "code": "P08",
+  "name": "Buddhist Religion & Moral Education (Primary)",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "P09",
+  "code": "P09",
+  "name": "Christian Religion & Moral Education (Primary)",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "101",
+  "code": "101",
+  "name": "Bangla 1st Paper",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "102",
+  "code": "102",
+  "name": "Bangla 2nd Paper",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "107",
+  "code": "107",
+  "name": "English 1st Paper",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "108",
+  "code": "108",
+  "name": "English 2nd Paper",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "109",
+  "code": "109",
+  "name": "Mathematics",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "111",
+  "code": "111",
+  "name": "Islam & Moral Education",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "112",
+  "code": "112",
+  "name": "Hindu Religion & Moral Education",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "113",
+  "code": "113",
+  "name": "Buddhist Religion & Moral Education",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "114",
+  "code": "114",
+  "name": "Christian Religion & Moral Education",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "154",
+  "code": "154",
+  "name": "ICT",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "Yes"
+ },
+ {
+  "id": "127",
+  "code": "127",
+  "name": "General Science",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "150",
+  "code": "150",
+  "name": "Bangladesh & Global Studies",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "136",
+  "code": "136",
+  "name": "Physics",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "Yes"
+ },
+ {
+  "id": "137",
+  "code": "137",
+  "name": "Chemistry",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "Yes"
+ },
+ {
+  "id": "138",
+  "code": "138",
+  "name": "Biology",
+  "nameBn": "",
+  "type": "Optional",
+  "hasPractical": "Yes"
+ },
+ {
+  "id": "126",
+  "code": "126",
+  "name": "Higher Mathematics",
+  "nameBn": "",
+  "type": "Optional",
+  "hasPractical": "Yes"
+ },
+ {
+  "id": "146",
+  "code": "146",
+  "name": "Accounting",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "143",
+  "code": "143",
+  "name": "Business Entrepreneurship",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "152",
+  "code": "152",
+  "name": "Finance & Banking",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "153",
+  "code": "153",
+  "name": "History of Bangladesh & World Civilization",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "110",
+  "code": "110",
+  "name": "Geography & Environment",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "141",
+  "code": "141",
+  "name": "Economics",
+  "nameBn": "",
+  "type": "Compulsory",
+  "hasPractical": "No"
+ },
+ {
+  "id": "134",
+  "code": "134",
+  "name": "Agriculture Studies",
+  "nameBn": "",
+  "type": "Optional",
+  "hasPractical": "Yes"
+ },
+ {
+  "id": "151",
+  "code": "151",
+  "name": "Home Science",
+  "nameBn": "",
+  "type": "Optional",
+  "hasPractical": "Yes"
+ },
+ {
+  "id": "147",
+  "code": "147",
+  "name": "Physical Education, Health & Sports",
+  "nameBn": "",
+  "type": "Continuous",
+  "hasPractical": "No"
+ },
+ {
+  "id": "M01",
+  "code": "M01",
+  "name": "Life & Livelihood",
+  "nameBn": "",
+  "type": "Continuous",
+  "hasPractical": "No"
+ },
+ {
+  "id": "M02",
+  "code": "M02",
+  "name": "Arts & Culture",
+  "nameBn": "",
+  "type": "Continuous",
+  "hasPractical": "No"
+ },
+ {
+  "id": "CE",
+  "code": "CE",
+  "name": "Career Education",
+  "nameBn": "",
+  "type": "Continuous",
+  "hasPractical": "No"
+ }
+]

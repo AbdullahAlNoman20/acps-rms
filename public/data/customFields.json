@@ -1,0 +1,29 @@
+[
+ {
+  "id": "CF-1",
+  "entity": "students",
+  "key": "cf_blood",
+  "label": "Blood group",
+  "type": "select",
+  "options": "A+,A-,B+,B-,O+,O-,AB+,AB-",
+  "required": "No"
+ },
+ {
+  "id": "CF-2",
+  "entity": "students",
+  "key": "cf_scholarship",
+  "label": "Scholarship",
+  "type": "yesno",
+  "options": "",
+  "required": "No"
+ },
+ {
+  "id": "CF-3",
+  "entity": "teachers",
+  "key": "cf_joined",
+  "label": "Joining date",
+  "type": "date",
+  "options": "",
+  "required": "No"
+ }
+]

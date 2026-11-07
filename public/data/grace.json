@@ -1,0 +1,22 @@
+[
+ {
+  "id": "GR-1",
+  "examId": "2026-second",
+  "studentId": "260161",
+  "courseCode": "137",
+  "marks": 2,
+  "reason": "Marks within 2 of the pass mark.",
+  "status": "pending",
+  "createdAt": "2026-11-05"
+ },
+ {
+  "id": "GR-2",
+  "examId": "2026-second",
+  "studentId": "260145",
+  "courseCode": "109",
+  "marks": 1,
+  "reason": "Approved by Exam Authority.",
+  "status": "approved",
+  "createdAt": "2026-08-05"
+ }
+]

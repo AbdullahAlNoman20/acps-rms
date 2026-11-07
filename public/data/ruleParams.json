@@ -1,0 +1,82 @@
+[
+ {
+  "id": "passStandard",
+  "key": "passStandard",
+  "label": "Standard pass percent",
+  "value": 45,
+  "unit": "%",
+  "note": "Used for aggregate results and as the default pass mark."
+ },
+ {
+  "id": "passSpecial",
+  "key": "passSpecial",
+  "label": "Special pass percent",
+  "value": 33,
+  "unit": "%",
+  "note": "Applied to a student when the 33 rule is switched on."
+ },
+ {
+  "id": "gpaCap",
+  "key": "gpaCap",
+  "label": "Maximum GPA",
+  "value": 5,
+  "unit": "",
+  "note": "GPA never goes above this."
+ },
+ {
+  "id": "roundDecimals",
+  "key": "roundDecimals",
+  "label": "Decimal places (round half-up)",
+  "value": 2,
+  "unit": "",
+  "note": "For marks and GPA."
+ },
+ {
+  "id": "graceMaxMarks",
+  "key": "graceMaxMarks",
+  "label": "Maximum grace marks per student",
+  "value": 3,
+  "unit": "marks",
+  "note": "Assumption - change as the management decides."
+ },
+ {
+  "id": "graceMaxSubjects",
+  "key": "graceMaxSubjects",
+  "label": "Grace allowed in subjects",
+  "value": 1,
+  "unit": "subject",
+  "note": "Assumption."
+ },
+ {
+  "id": "minAttendance",
+  "key": "minAttendance",
+  "label": "Minimum attendance",
+  "value": 50,
+  "unit": "%",
+  "note": "Needed to move from one term to the next."
+ },
+ {
+  "id": "entryDays",
+  "key": "entryDays",
+  "label": "Marks entry window",
+  "value": 15,
+  "unit": "days",
+  "note": "Default days teachers get after an exam."
+ },
+ {
+  "id": "maxExtensions",
+  "key": "maxExtensions",
+  "label": "Maximum extensions per exam",
+  "value": 2,
+  "unit": "times",
+  "note": "IT Head recommends, Principal approves."
+ },
+ {
+  "id": "tieBreak",
+  "key": "tieBreak",
+  "label": "Merit tie-break subjects (in order)",
+  "value": "Mathematics,English,Bangla",
+  "unit": "",
+  "note": "Used when total marks are equal."
+ }
+]

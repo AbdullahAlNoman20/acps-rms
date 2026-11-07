@@ -1,0 +1,32 @@
+[
+ {
+  "id": "COR-1",
+  "examId": "2026-second",
+  "studentId": "260161",
+  "courseCode": "109",
+  "component": "subj",
+  "oldValue": 44.5,
+  "newValue": 48.5,
+  "reason": "Addition mistake found while checking the answer script.",
+  "teacherId": "T01",
+  "itHeadApproved": "Yes",
+  "authorityApproved": "",
+  "status": "pending",
+  "createdAt": "2026-11-03"
+ },
+ {
+  "id": "COR-2",
+  "examId": "2026-first",
+  "studentId": "260181",
+  "courseCode": "109",
+  "component": "obj",
+  "oldValue": 20,
+  "newValue": 22,
+  "reason": "Objective sheet re-checked.",
+  "teacherId": "T01",
+  "itHeadApproved": "",
+  "authorityApproved": "",
+  "status": "pending",
+  "createdAt": "2026-11-05"
+ }
+]

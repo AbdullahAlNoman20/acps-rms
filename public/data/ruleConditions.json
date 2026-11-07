@@ -1,0 +1,138 @@
+[
+ {
+  "id": "pr-1",
+  "scope": "promotion",
+  "label": "Class X has no promotion",
+  "enabled": "Yes",
+  "when": [
+   {
+    "field": "program",
+    "op": "=",
+    "value": "X"
+   }
+  ],
+  "then": {
+   "action": "decision",
+   "value": "Passed Out"
+  }
+ },
+ {
+  "id": "pr-2",
+  "scope": "promotion",
+  "label": "More than 1 failed subject: repeat",
+  "enabled": "Yes",
+  "when": [
+   {
+    "field": "failedCount",
+    "op": ">",
+    "value": "1"
+   }
+  ],
+  "then": {
+   "action": "decision",
+   "value": "Repeat"
+  }
+ },
+ {
+  "id": "pr-3",
+  "scope": "promotion",
+  "label": "Exactly 1 failed subject: re-exam",
+  "enabled": "Yes",
+  "when": [
+   {
+    "field": "failedCount",
+    "op": "=",
+    "value": "1"
+   }
+  ],
+  "then": {
+   "action": "decision",
+   "value": "Re-exam"
+  }
+ },
+ {
+  "id": "pr-4",
+  "scope": "promotion",
+  "label": "Low attendance: hold",
+  "enabled": "Yes",
+  "when": [
+   {
+    "field": "attendancePercent",
+    "op": "<",
+    "value": "50"
+   }
+  ],
+  "then": {
+   "action": "decision",
+   "value": "Hold"
+  }
+ },
+ {
+  "id": "ssc-1",
+  "scope": "ssc",
+  "label": "Failed the Final Test: not eligible for SSC",
+  "enabled": "Yes",
+  "when": [
+   {
+    "field": "finalTestPassed",
+    "op": "=",
+    "value": "0"
+   }
+  ],
+  "then": {
+   "action": "eligibility",
+   "value": "Not eligible"
+  }
+ },
+ {
+  "id": "ssc-2",
+  "scope": "ssc",
+  "label": "Attendance below 50: not eligible for SSC",
+  "enabled": "Yes",
+  "when": [
+   {
+    "field": "attendancePercent",
+    "op": "<",
+    "value": "50"
+   }
+  ],
+  "then": {
+   "action": "eligibility",
+   "value": "Not eligible"
+  }
+ },
+ {
+  "id": "rs-1",
+  "scope": "result",
+  "label": "Mark students on the 33 rule",
+  "enabled": "Yes",
+  "when": [
+   {
+    "field": "passRule",
+    "op": "=",
+    "value": "33"
+   }
+  ],
+  "then": {
+   "action": "flag",
+   "value": "33 rule applied"
+  }
+ },
+ {
+  "id": "rs-2",
+  "scope": "result",
+  "label": "Flag low attendance",
+  "enabled": "Yes",
+  "when": [
+   {
+    "field": "attendancePercent",
+    "op": "<",
+    "value": "50"
+   }
+  ],
+  "then": {
+   "action": "flag",
+   "value": "Low attendance"
+  }
+ }
+]

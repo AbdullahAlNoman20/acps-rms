@@ -1,0 +1,37 @@
+[
+ {
+  "id": "AB",
+  "code": "AB",
+  "label": "Absent",
+  "effect": "zero",
+  "note": "Marks and GP become 0"
+ },
+ {
+  "id": "EX",
+  "code": "EX",
+  "label": "Exempted",
+  "effect": "zero",
+  "note": "Marks and GP become 0 (decision of the school)"
+ },
+ {
+  "id": "WH",
+  "code": "WH",
+  "label": "Withheld",
+  "effect": "zero",
+  "note": "Result withheld"
+ },
+ {
+  "id": "EXP",
+  "code": "EXP",
+  "label": "Expelled",
+  "effect": "zero",
+  "note": "Student expelled"
+ },
+ {
+  "id": "TR",
+  "code": "TR",
+  "label": "Transferred",
+  "effect": "zero",
+  "note": "Student transferred"
+ }
+]

@@ -1,0 +1,218 @@
+[
+ {
+  "id": "BR-1",
+  "studentId": "250001",
+  "roll": 100200,
+  "registration": "201809000",
+  "year": "2025",
+  "group": "Science",
+  "gpa": 5,
+  "status": "Passed",
+  "subjects": [
+   {
+    "code": "101",
+    "name": "Bangla",
+    "letter": "A+",
+    "gp": 5
+   },
+   {
+    "code": "107",
+    "name": "English",
+    "letter": "A",
+    "gp": 4
+   },
+   {
+    "code": "109",
+    "name": "Mathematics",
+    "letter": "A+",
+    "gp": 5
+   },
+   {
+    "code": "154",
+    "name": "ICT",
+    "letter": "A+",
+    "gp": 5
+   }
+  ]
+ },
+ {
+  "id": "BR-2",
+  "studentId": "250002",
+  "roll": 100201,
+  "registration": "201809001",
+  "year": "2025",
+  "group": "Commerce",
+  "gpa": 4.72,
+  "status": "Passed",
+  "subjects": [
+   {
+    "code": "101",
+    "name": "Bangla",
+    "letter": "A+",
+    "gp": 5
+   },
+   {
+    "code": "107",
+    "name": "English",
+    "letter": "A",
+    "gp": 4
+   },
+   {
+    "code": "109",
+    "name": "Mathematics",
+    "letter": "A+",
+    "gp": 5
+   },
+   {
+    "code": "154",
+    "name": "ICT",
+    "letter": "A+",
+    "gp": 5
+   }
+  ]
+ },
+ {
+  "id": "BR-3",
+  "studentId": "250003",
+  "roll": 100202,
+  "registration": "201809002",
+  "year": "2025",
+  "group": "Arts",
+  "gpa": 4.33,
+  "status": "Passed",
+  "subjects": [
+   {
+    "code": "101",
+    "name": "Bangla",
+    "letter": "A+",
+    "gp": 5
+   },
+   {
+    "code": "107",
+    "name": "English",
+    "letter": "A",
+    "gp": 4
+   },
+   {
+    "code": "109",
+    "name": "Mathematics",
+    "letter": "A+",
+    "gp": 5
+   },
+   {
+    "code": "154",
+    "name": "ICT",
+    "letter": "A+",
+    "gp": 5
+   }
+  ]
+ },
+ {
+  "id": "BR-4",
+  "studentId": "250004",
+  "roll": 100203,
+  "registration": "201809003",
+  "year": "2025",
+  "group": "Science",
+  "gpa": 3.89,
+  "status": "Passed",
+  "subjects": [
+   {
+    "code": "101",
+    "name": "Bangla",
+    "letter": "A+",
+    "gp": 5
+   },
+   {
+    "code": "107",
+    "name": "English",
+    "letter": "A",
+    "gp": 4
+   },
+   {
+    "code": "109",
+    "name": "Mathematics",
+    "letter": "A+",
+    "gp": 5
+   },
+   {
+    "code": "154",
+    "name": "ICT",
+    "letter": "A+",
+    "gp": 5
+   }
+  ]
+ },
+ {
+  "id": "BR-5",
+  "studentId": "250005",
+  "roll": 100204,
+  "registration": "201809004",
+  "year": "2025",
+  "group": "Commerce",
+  "gpa": 4.11,
+  "status": "Passed",
+  "subjects": [
+   {
+    "code": "101",
+    "name": "Bangla",
+    "letter": "A+",
+    "gp": 5
+   },
+   {
+    "code": "107",
+    "name": "English",
+    "letter": "A",
+    "gp": 4
+   },
+   {
+    "code": "109",
+    "name": "Mathematics",
+    "letter": "A+",
+    "gp": 5
+   },
+   {
+    "code": "154",
+    "name": "ICT",
+    "letter": "A+",
+    "gp": 5
+   }
+  ]
+ },
+ {
+  "id": "BR-6",
+  "studentId": "250006",
+  "roll": 100205,
+  "registration": "201809005",
+  "year": "2025",
+  "group": "Arts",
+  "gpa": 5,
+  "status": "Passed",
+  "subjects": [
+   {
+    "code": "101",
+    "name": "Bangla",
+    "letter": "A+",
+    "gp": 5
+   },
+   {
+    "code": "107",
+    "name": "English",
+    "letter": "A",
+    "gp": 4
+   },
+   {
+    "code": "109",
+    "name": "Mathematics",
+    "letter": "A+",
+    "gp": 5
+   },
+   {
+    "code": "154",
+    "name": "ICT",
+    "letter": "A+",
+    "gp": 5
+   }
+  ]
+ }
+]

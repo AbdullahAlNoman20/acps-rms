@@ -1,0 +1,22 @@
+[
+ {
+  "id": "LOG-1",
+  "at": "2026-08-04 10:15",
+  "by": "Md. Anisur Rahman",
+  "audience": "Parent",
+  "program": "X",
+  "section": "A",
+  "count": 10,
+  "text": "Dear Guardian, the Second Term result is published."
+ },
+ {
+  "id": "LOG-2",
+  "at": "2026-09-30 09:40",
+  "by": "Mrs. Rokeya Sultana",
+  "audience": "Parent",
+  "program": "X",
+  "section": "B",
+  "count": 10,
+  "text": "Dear Guardian, the Pre-Test result is published."
+ }
+]

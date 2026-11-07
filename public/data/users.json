@@ -1,0 +1,157 @@
+[
+ {
+  "id": "U-ITH",
+  "name": "Md. Anisur Rahman",
+  "email": "ithead@acps.edu.bd",
+  "password": "Demo@123",
+  "role": "it_head",
+  "status": "Active",
+  "avatarColor": "#B01616"
+ },
+ {
+  "id": "U-ITA",
+  "name": "Mr. Sohel Rana",
+  "email": "itadmin@acps.edu.bd",
+  "password": "Demo@123",
+  "role": "it_admin",
+  "status": "Active",
+  "avatarColor": "#06603A"
+ },
+ {
+  "id": "U-EXA",
+  "name": "Mr. Jahangir Alam",
+  "email": "examauthority@acps.edu.bd",
+  "password": "Demo@123",
+  "role": "exam_authority",
+  "status": "Active",
+  "avatarColor": "#C99A0E"
+ },
+ {
+  "id": "U-PRI",
+  "name": "Lt Col Byzid Mohammad Tareq Junaed",
+  "email": "principal@acps.edu.bd",
+  "password": "Demo@123",
+  "role": "principal",
+  "status": "Active",
+  "avatarColor": "#06603A"
+ },
+ {
+  "id": "U-VP",
+  "name": "Mrs. Rokeya Sultana",
+  "email": "vp@acps.edu.bd",
+  "password": "Demo@123",
+  "role": "vice_principal",
+  "status": "Active",
+  "avatarColor": "#C99A0E"
+ },
+ {
+  "id": "U-T1",
+  "name": "Md. Abdul Karim",
+  "email": "teacher1@acps.edu.bd",
+  "password": "Demo@123",
+  "role": "teacher",
+  "status": "Active",
+  "avatarColor": "#087A49",
+  "teacherId": "T01"
+ },
+ {
+  "id": "U-T2",
+  "name": "Md. Nurul Islam",
+  "email": "teacher2@acps.edu.bd",
+  "password": "Demo@123",
+  "role": "teacher",
+  "status": "Active",
+  "avatarColor": "#C99A0E",
+  "teacherId": "T02"
+ },
+ {
+  "id": "U-T3",
+  "name": "Mrs. Farhana Yasmin",
+  "email": "teacher3@acps.edu.bd",
+  "password": "Demo@123",
+  "role": "teacher",
+  "status": "Active",
+  "avatarColor": "#B01616",
+  "teacherId": "T03"
+ },
+ {
+  "id": "U-T4",
+  "name": "Mrs. Shirin Akter",
+  "email": "teacher4@acps.edu.bd",
+  "password": "Demo@123",
+  "role": "teacher",
+  "status": "Active",
+  "avatarColor": "#B01616",
+  "teacherId": "T04"
+ },
+ {
+  "id": "U-T5",
+  "name": "Md. Rafiqul Hasan",
+  "email": "teacher5@acps.edu.bd",
+  "password": "Demo@123",
+  "role": "teacher",
+  "status": "Active",
+  "avatarColor": "#06603A",
+  "teacherId": "T05"
+ },
+ {
+  "id": "U-T6",
+  "name": "Mr. Kamal Hossain",
+  "email": "teacher6@acps.edu.bd",
+  "password": "Demo@123",
+  "role": "teacher",
+  "status": "Active",
+  "avatarColor": "#C99A0E",
+  "teacherId": "T06"
+ },
+ {
+  "id": "U-T7",
+  "name": "Mrs. Nasrin Sultana",
+  "email": "teacher7@acps.edu.bd",
+  "password": "Demo@123",
+  "role": "teacher",
+  "status": "Active",
+  "avatarColor": "#06603A",
+  "teacherId": "T07"
+ },
+ {
+  "id": "U-T8",
+  "name": "Md. Shahidul Alam",
+  "email": "teacher8@acps.edu.bd",
+  "password": "Demo@123",
+  "role": "teacher",
+  "status": "Active",
+  "avatarColor": "#06603A",
+  "teacherId": "T08"
+ },
+ {
+  "id": "U-S1",
+  "name": "Md. Rahim Uddin",
+  "email": "student1@acps.edu.bd",
+  "password": "Demo@123",
+  "role": "student",
+  "status": "Active",
+  "avatarColor": "#06603A",
+  "studentId": "260181"
+ },
+ {
+  "id": "U-S2",
+  "name": "Mst. Nusrat Jahan",
+  "email": "student2@acps.edu.bd",
+  "password": "Demo@123",
+  "role": "student",
+  "status": "Active",
+  "avatarColor": "#06603A",
+  "studentId": "260161"
+ },
+ {
+  "id": "U-P1",
+  "name": "Md. Rahim Mia",
+  "email": "parent1@acps.edu.bd",
+  "password": "Demo@123",
+  "role": "parent",
+  "status": "Active",
+  "avatarColor": "#06603A",
+  "studentId": "260181"
+ }
+]

@@ -1,0 +1,100 @@
+[
+ {
+  "id": "standard",
+  "name": "Standard grade table (pass rule 45)",
+  "rows": [
+   {
+    "min": 80,
+    "letter": "A+",
+    "gp": 5
+   },
+   {
+    "min": 70,
+    "letter": "A",
+    "gp": 4
+   },
+   {
+    "min": 60,
+    "letter": "A-",
+    "gp": 3.5
+   },
+   {
+    "min": 50,
+    "letter": "B",
+    "gp": 3
+   },
+   {
+    "min": 45,
+    "letter": "C",
+    "gp": 2
+   }
+  ]
+ },
+ {
+  "id": "special",
+  "name": "Special grade table (pass rule 33)",
+  "rows": [
+   {
+    "min": 80,
+    "letter": "A+",
+    "gp": 5
+   },
+   {
+    "min": 70,
+    "letter": "A",
+    "gp": 4
+   },
+   {
+    "min": 60,
+    "letter": "A-",
+    "gp": 3.5
+   },
+   {
+    "min": 50,
+    "letter": "B",
+    "gp": 3
+   },
+   {
+    "min": 33,
+    "letter": "C",
+    "gp": 2
+   }
+  ]
+ },
+ {
+  "id": "gpaLetters",
+  "name": "Overall GPA to letter (min GPA)",
+  "rows": [
+   {
+    "min": 5,
+    "letter": "A+",
+    "gp": 0
+   },
+   {
+    "min": 4,
+    "letter": "A",
+    "gp": 0
+   },
+   {
+    "min": 3.5,
+    "letter": "A-",
+    "gp": 0
+   },
+   {
+    "min": 3,
+    "letter": "B",
+    "gp": 0
+   },
+   {
+    "min": 2,
+    "letter": "C",
+    "gp": 0
+   },
+   {
+    "min": 0,
+    "letter": "F",
+    "gp": 0
+   }
+  ]
+ }
+]

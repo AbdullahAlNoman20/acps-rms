@@ -1,0 +1,47 @@
+[
+ {
+  "id": "TK-1",
+  "title": "Cannot see Final Term entry page",
+  "details": "I am not able to open the entry page for Class IX Mathematics.",
+  "priority": "high",
+  "status": "open",
+  "createdBy": "Md. Abdul Karim",
+  "role": "teacher",
+  "createdAt": "2026-11-05",
+  "replies": []
+ },
+ {
+  "id": "TK-2",
+  "title": "Student roll is wrong",
+  "details": "Roll of one student in Class VII-B is wrong.",
+  "priority": "normal",
+  "status": "in_progress",
+  "createdBy": "Mrs. Nasrin Sultana",
+  "role": "teacher",
+  "createdAt": "2026-11-02",
+  "replies": [
+   {
+    "by": "Mr. Sohel Rana",
+    "at": "2026-11-03",
+    "text": "We are checking it."
+   }
+  ]
+ },
+ {
+  "id": "TK-3",
+  "title": "Download the result PDF",
+  "details": "How do I save my result as a PDF?",
+  "priority": "low",
+  "status": "resolved",
+  "createdBy": "Md. Rahim Uddin",
+  "role": "student",
+  "createdAt": "2026-10-20",
+  "replies": [
+   {
+    "by": "Mr. Sohel Rana",
+    "at": "2026-10-21",
+    "text": "Open your result and press Print, then choose Save as PDF."
+   }
+  ]
+ }
+]

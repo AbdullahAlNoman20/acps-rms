@@ -1,0 +1,467 @@
+[
+ {
+  "id": "setup.manage",
+  "key": "setup.manage",
+  "label": "Setup (class, course, mark distribution, grades, exam schemes)",
+  "roles": {
+   "it_head": true,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": false,
+   "vice_principal": false,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "customize.manage",
+  "key": "customize.manage",
+  "label": "Rules, formulas, labels and custom fields",
+  "roles": {
+   "it_head": true,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": false,
+   "vice_principal": false,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "users.manage",
+  "key": "users.manage",
+  "label": "Users and teachers",
+  "roles": {
+   "it_head": true,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": false,
+   "vice_principal": false,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "permissions.manage",
+  "key": "permissions.manage",
+  "label": "Grant or revoke permissions",
+  "roles": {
+   "it_head": true,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": false,
+   "vice_principal": false,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "batches.manage",
+  "key": "batches.manage",
+  "label": "Teacher batch assignment",
+  "roles": {
+   "it_head": true,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": false,
+   "vice_principal": false,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "students.manage",
+  "key": "students.manage",
+  "label": "Students, import and curriculum",
+  "roles": {
+   "it_head": true,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": false,
+   "vice_principal": false,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "entry.window",
+  "key": "entry.window",
+  "label": "Open, close and set marks entry window",
+  "roles": {
+   "it_head": true,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": false,
+   "vice_principal": false,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "extension.request",
+  "key": "extension.request",
+  "label": "Ask for more entry time",
+  "roles": {
+   "it_head": false,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": false,
+   "vice_principal": false,
+   "teacher": true,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "extension.recommend",
+  "key": "extension.recommend",
+  "label": "Recommend an extension",
+  "roles": {
+   "it_head": true,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": false,
+   "vice_principal": false,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "extension.approve",
+  "key": "extension.approve",
+  "label": "Approve an extension",
+  "roles": {
+   "it_head": false,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": true,
+   "vice_principal": false,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "entry.marks",
+  "key": "entry.marks",
+  "label": "Enter marks",
+  "roles": {
+   "it_head": false,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": false,
+   "vice_principal": false,
+   "teacher": true,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "attendance.entry",
+  "key": "attendance.entry",
+  "label": "Attendance and remarks (class teacher)",
+  "roles": {
+   "it_head": false,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": false,
+   "vice_principal": false,
+   "teacher": true,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "correction.request",
+  "key": "correction.request",
+  "label": "Ask for a marks correction",
+  "roles": {
+   "it_head": false,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": false,
+   "vice_principal": false,
+   "teacher": true,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "correction.approve",
+  "key": "correction.approve",
+  "label": "Approve a marks correction",
+  "roles": {
+   "it_head": true,
+   "it_admin": false,
+   "exam_authority": true,
+   "principal": false,
+   "vice_principal": false,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "passrule.set",
+  "key": "passrule.set",
+  "label": "Switch a student to the 33 pass rule",
+  "roles": {
+   "it_head": true,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": false,
+   "vice_principal": false,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "grace.entry",
+  "key": "grace.entry",
+  "label": "Enter grace marks",
+  "roles": {
+   "it_head": true,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": false,
+   "vice_principal": false,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "grace.approve",
+  "key": "grace.approve",
+  "label": "Approve grace marks",
+  "roles": {
+   "it_head": false,
+   "it_admin": false,
+   "exam_authority": true,
+   "principal": false,
+   "vice_principal": false,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "calc.run",
+  "key": "calc.run",
+  "label": "Run calculation",
+  "roles": {
+   "it_head": true,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": false,
+   "vice_principal": false,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "results.verify",
+  "key": "results.verify",
+  "label": "Verify and send to authority",
+  "roles": {
+   "it_head": true,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": false,
+   "vice_principal": false,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "results.review",
+  "key": "results.review",
+  "label": "Review results (VP / Principal)",
+  "roles": {
+   "it_head": false,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": true,
+   "vice_principal": true,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "results.sign",
+  "key": "results.sign",
+  "label": "Sign results (Principal)",
+  "roles": {
+   "it_head": false,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": true,
+   "vice_principal": false,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "results.publish",
+  "key": "results.publish",
+  "label": "Publish results",
+  "roles": {
+   "it_head": true,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": false,
+   "vice_principal": false,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "results.view",
+  "key": "results.view",
+  "label": "View results",
+  "roles": {
+   "it_head": true,
+   "it_admin": true,
+   "exam_authority": true,
+   "principal": true,
+   "vice_principal": true,
+   "teacher": true,
+   "student": true,
+   "parent": true
+  }
+ },
+ {
+  "id": "reports.view",
+  "key": "reports.view",
+  "label": "Reports",
+  "roles": {
+   "it_head": true,
+   "it_admin": false,
+   "exam_authority": true,
+   "principal": true,
+   "vice_principal": true,
+   "teacher": true,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "sms.send",
+  "key": "sms.send",
+  "label": "Send SMS",
+  "roles": {
+   "it_head": true,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": true,
+   "vice_principal": false,
+   "teacher": true,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "support.create",
+  "key": "support.create",
+  "label": "Create a support ticket",
+  "roles": {
+   "it_head": true,
+   "it_admin": true,
+   "exam_authority": true,
+   "principal": true,
+   "vice_principal": true,
+   "teacher": true,
+   "student": true,
+   "parent": true
+  }
+ },
+ {
+  "id": "support.manage",
+  "key": "support.manage",
+  "label": "Manage support tickets",
+  "roles": {
+   "it_head": true,
+   "it_admin": true,
+   "exam_authority": false,
+   "principal": false,
+   "vice_principal": false,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "audit.view",
+  "key": "audit.view",
+  "label": "View audit log",
+  "roles": {
+   "it_head": true,
+   "it_admin": true,
+   "exam_authority": true,
+   "principal": true,
+   "vice_principal": false,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "yearend.prepare",
+  "key": "yearend.prepare",
+  "label": "Prepare year-end promotion",
+  "roles": {
+   "it_head": true,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": false,
+   "vice_principal": false,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "yearend.approve",
+  "key": "yearend.approve",
+  "label": "Approve year-end rollover",
+  "roles": {
+   "it_head": false,
+   "it_admin": false,
+   "exam_authority": false,
+   "principal": true,
+   "vice_principal": false,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ },
+ {
+  "id": "board.manage",
+  "key": "board.manage",
+  "label": "SSC board results",
+  "roles": {
+   "it_head": true,
+   "it_admin": false,
+   "exam_authority": true,
+   "principal": false,
+   "vice_principal": false,
+   "teacher": false,
+   "student": false,
+   "parent": false
+  }
+ }
+]

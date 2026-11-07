@@ -1,0 +1,22 @@
+[
+ {
+  "id": "EXT-1",
+  "examId": "2026-final",
+  "teacherId": "T01",
+  "reason": "Class XI practical week clashed with marks entry; need more days.",
+  "days": 3,
+  "status": "requested",
+  "requestedAt": "2026-11-04",
+  "note": ""
+ },
+ {
+  "id": "EXT-2",
+  "examId": "2026-final",
+  "teacherId": "T04",
+  "reason": "Science fair preparation.",
+  "days": 2,
+  "status": "recommended",
+  "requestedAt": "2026-11-03",
+  "note": "Recommended by IT Head"
+ }
+]

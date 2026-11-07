@@ -1,0 +1,3104 @@
+[
+ {
+  "id": "md-I-II",
+  "name": "Class I-II",
+  "programs": [
+   "I",
+   "II"
+  ],
+  "group": "General",
+  "gpaDivision": 3,
+  "deduct4th": 2,
+  "failFor4th": "No",
+  "note": "Edit any number here. Sample values follow the school's ERP chart.",
+  "courses": [
+   {
+    "code": "P01",
+    "name": "Bangla (Primary)",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "wr",
+      "label": "Written",
+      "exam": 80,
+      "pr": 100,
+      "pass": 36,
+      "pass33": 27
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 100,
+      "pass": 9,
+      "pass33": 7
+     }
+    ]
+   },
+   {
+    "code": "P02",
+    "name": "English (Primary)",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "wr",
+      "label": "Written",
+      "exam": 80,
+      "pr": 100,
+      "pass": 36,
+      "pass33": 27
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 100,
+      "pass": 9,
+      "pass33": 7
+     }
+    ]
+   },
+   {
+    "code": "P03",
+    "name": "Mathematics (Primary)",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "wr",
+      "label": "Written",
+      "exam": 80,
+      "pr": 100,
+      "pass": 36,
+      "pass33": 27
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 100,
+      "pass": 9,
+      "pass33": 7
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "md-III-V",
+  "name": "Class III-V",
+  "programs": [
+   "III",
+   "IV",
+   "V"
+  ],
+  "group": "General",
+  "gpaDivision": 6,
+  "deduct4th": 2,
+  "failFor4th": "No",
+  "note": "Edit any number here. Sample values follow the school's ERP chart.",
+  "courses": [
+   {
+    "code": "P01",
+    "name": "Bangla (Primary)",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "wr",
+      "label": "Written",
+      "exam": 80,
+      "pr": 100,
+      "pass": 36,
+      "pass33": 27
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 100,
+      "pass": 9,
+      "pass33": 7
+     }
+    ]
+   },
+   {
+    "code": "P02",
+    "name": "English (Primary)",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "wr",
+      "label": "Written",
+      "exam": 80,
+      "pr": 100,
+      "pass": 36,
+      "pass33": 27
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 100,
+      "pass": 9,
+      "pass33": 7
+     }
+    ]
+   },
+   {
+    "code": "P03",
+    "name": "Mathematics (Primary)",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "wr",
+      "label": "Written",
+      "exam": 80,
+      "pr": 100,
+      "pass": 36,
+      "pass33": 27
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 100,
+      "pass": 9,
+      "pass33": 7
+     }
+    ]
+   },
+   {
+    "code": "P04",
+    "name": "Science (Primary)",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "wr",
+      "label": "Written",
+      "exam": 80,
+      "pr": 100,
+      "pass": 36,
+      "pass33": 27
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 100,
+      "pass": 9,
+      "pass33": 7
+     }
+    ]
+   },
+   {
+    "code": "P05",
+    "name": "Bangladesh & Global Studies (Primary)",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "wr",
+      "label": "Written",
+      "exam": 80,
+      "pr": 100,
+      "pass": 36,
+      "pass33": 27
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 100,
+      "pass": 9,
+      "pass33": 7
+     }
+    ]
+   },
+   {
+    "code": "P06",
+    "name": "Islam & Moral Education (Primary)",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "Islam",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "wr",
+      "label": "Written",
+      "exam": 80,
+      "pr": 100,
+      "pass": 36,
+      "pass33": 27
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 100,
+      "pass": 9,
+      "pass33": 7
+     }
+    ]
+   },
+   {
+    "code": "P07",
+    "name": "Hindu Religion & Moral Education (Primary)",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "Hindu",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "wr",
+      "label": "Written",
+      "exam": 80,
+      "pr": 100,
+      "pass": 36,
+      "pass33": 27
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 100,
+      "pass": 9,
+      "pass33": 7
+     }
+    ]
+   },
+   {
+    "code": "P08",
+    "name": "Buddhist Religion & Moral Education (Primary)",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "Buddhist",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "wr",
+      "label": "Written",
+      "exam": 80,
+      "pr": 100,
+      "pass": 36,
+      "pass33": 27
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 100,
+      "pass": 9,
+      "pass33": 7
+     }
+    ]
+   },
+   {
+    "code": "P09",
+    "name": "Christian Religion & Moral Education (Primary)",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "Christian",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "wr",
+      "label": "Written",
+      "exam": 80,
+      "pr": 100,
+      "pass": 36,
+      "pass33": 27
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 100,
+      "pass": 9,
+      "pass33": 7
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "md-VI-VIII",
+  "name": "Class VI-VIII",
+  "programs": [
+   "VI",
+   "VII",
+   "VIII"
+  ],
+  "group": "General",
+  "gpaDivision": 7,
+  "deduct4th": 2,
+  "failFor4th": "No",
+  "note": "Edit any number here. Sample values follow the school's ERP chart.",
+  "courses": [
+   {
+    "code": "101",
+    "name": "Bangla 1st Paper",
+    "fullMark": 100,
+    "passMark": 0,
+    "passMark33": 0,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "J-BAN",
+    "jo": 1,
+    "jp": "",
+    "jp33": "",
+    "jointName": "Bangla",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 0,
+      "pass33": 0
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 0,
+      "pass33": 0
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "102",
+    "name": "Bangla 2nd Paper",
+    "fullMark": 100,
+    "passMark": 0,
+    "passMark33": 0,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "J-BAN",
+    "jo": 2,
+    "jp": 90,
+    "jp33": 66,
+    "jointName": "Bangla",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 28,
+      "pass33": 20
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 62,
+      "pass33": 46
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "107",
+    "name": "English 1st Paper",
+    "fullMark": 100,
+    "passMark": 0,
+    "passMark33": 0,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "J-ENG",
+    "jo": 1,
+    "jp": "",
+    "jp33": "",
+    "jointName": "English",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 100,
+      "pr": 90,
+      "pass": 0,
+      "pass33": 0
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "108",
+    "name": "English 2nd Paper",
+    "fullMark": 100,
+    "passMark": 0,
+    "passMark33": 0,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "J-ENG",
+    "jo": 2,
+    "jp": 90,
+    "jp33": 66,
+    "jointName": "English",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 100,
+      "pr": 90,
+      "pass": 90,
+      "pass33": 66
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "109",
+    "name": "Mathematics",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "127",
+    "name": "General Science",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "150",
+    "name": "Bangladesh & Global Studies",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "154",
+    "name": "ICT",
+    "fullMark": 50,
+    "passMark": 23,
+    "passMark33": 17,
+    "mj": 2,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 25,
+      "pr": 100,
+      "pass": 11,
+      "pass33": 8
+     },
+     {
+      "key": "prac",
+      "label": "Practical",
+      "exam": 25,
+      "pr": 100,
+      "pass": 12,
+      "pass33": 8
+     }
+    ]
+   },
+   {
+    "code": "111",
+    "name": "Islam & Moral Education",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "Islam",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "112",
+    "name": "Hindu Religion & Moral Education",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "Hindu",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "113",
+    "name": "Buddhist Religion & Moral Education",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "Buddhist",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "114",
+    "name": "Christian Religion & Moral Education",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "Christian",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "147",
+    "name": "Physical Education, Health & Sports",
+    "fullMark": 50,
+    "passMark": 0,
+    "passMark33": 0,
+    "mj": 2,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "No",
+    "components": [
+     {
+      "key": "ca",
+      "label": "Continuous assessment",
+      "exam": 50,
+      "pr": 100,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "M01",
+    "name": "Life & Livelihood",
+    "fullMark": 50,
+    "passMark": 0,
+    "passMark33": 0,
+    "mj": 2,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "No",
+    "components": [
+     {
+      "key": "ca",
+      "label": "Continuous assessment",
+      "exam": 50,
+      "pr": 100,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "M02",
+    "name": "Arts & Culture",
+    "fullMark": 50,
+    "passMark": 0,
+    "passMark33": 0,
+    "mj": 2,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "No",
+    "components": [
+     {
+      "key": "ca",
+      "label": "Continuous assessment",
+      "exam": 50,
+      "pr": 100,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "md-IX-X-Science",
+  "name": "Class IX-X Science",
+  "programs": [
+   "IX",
+   "X"
+  ],
+  "group": "Science",
+  "gpaDivision": 9,
+  "deduct4th": 2,
+  "failFor4th": "No",
+  "note": "Edit any number here. Sample values follow the school's ERP chart.",
+  "courses": [
+   {
+    "code": "101",
+    "name": "Bangla 1st Paper",
+    "fullMark": 100,
+    "passMark": 0,
+    "passMark33": 0,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "J-BAN",
+    "jo": 1,
+    "jp": "",
+    "jp33": "",
+    "jointName": "Bangla",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 0,
+      "pass33": 0
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 0,
+      "pass33": 0
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "102",
+    "name": "Bangla 2nd Paper",
+    "fullMark": 100,
+    "passMark": 0,
+    "passMark33": 0,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "J-BAN",
+    "jo": 2,
+    "jp": 90,
+    "jp33": 66,
+    "jointName": "Bangla",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 28,
+      "pass33": 20
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 62,
+      "pass33": 46
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "107",
+    "name": "English 1st Paper",
+    "fullMark": 100,
+    "passMark": 0,
+    "passMark33": 0,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "J-ENG",
+    "jo": 1,
+    "jp": "",
+    "jp33": "",
+    "jointName": "English",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 100,
+      "pr": 90,
+      "pass": 0,
+      "pass33": 0
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "108",
+    "name": "English 2nd Paper",
+    "fullMark": 100,
+    "passMark": 0,
+    "passMark33": 0,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "J-ENG",
+    "jo": 2,
+    "jp": 90,
+    "jp33": 66,
+    "jointName": "English",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 100,
+      "pr": 90,
+      "pass": 90,
+      "pass33": 66
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "109",
+    "name": "Mathematics",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "111",
+    "name": "Islam & Moral Education",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "Islam",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "112",
+    "name": "Hindu Religion & Moral Education",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "Hindu",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "113",
+    "name": "Buddhist Religion & Moral Education",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "Buddhist",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "114",
+    "name": "Christian Religion & Moral Education",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "Christian",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "154",
+    "name": "ICT",
+    "fullMark": 50,
+    "passMark": 23,
+    "passMark33": 17,
+    "mj": 2,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 25,
+      "pr": 100,
+      "pass": 11,
+      "pass33": 8
+     },
+     {
+      "key": "prac",
+      "label": "Practical",
+      "exam": 25,
+      "pr": 100,
+      "pass": 12,
+      "pass33": 8
+     }
+    ]
+   },
+   {
+    "code": "150",
+    "name": "Bangladesh & Global Studies",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "136",
+    "name": "Physics",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 25,
+      "pr": 100,
+      "pass": 11,
+      "pass33": 8
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 50,
+      "pr": 80,
+      "pass": 22,
+      "pass33": 17
+     },
+     {
+      "key": "prac",
+      "label": "Practical",
+      "exam": 25,
+      "pr": 100,
+      "pass": 12,
+      "pass33": 8
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "137",
+    "name": "Chemistry",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 25,
+      "pr": 100,
+      "pass": 11,
+      "pass33": 8
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 50,
+      "pr": 80,
+      "pass": 22,
+      "pass33": 17
+     },
+     {
+      "key": "prac",
+      "label": "Practical",
+      "exam": 25,
+      "pr": 100,
+      "pass": 12,
+      "pass33": 8
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "138",
+    "name": "Biology",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "mainOrFourth",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 25,
+      "pr": 100,
+      "pass": 11,
+      "pass33": 8
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 50,
+      "pr": 80,
+      "pass": 22,
+      "pass33": 17
+     },
+     {
+      "key": "prac",
+      "label": "Practical",
+      "exam": 25,
+      "pr": 100,
+      "pass": 12,
+      "pass33": 8
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "126",
+    "name": "Higher Mathematics",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "mainOrFourth",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 25,
+      "pr": 100,
+      "pass": 11,
+      "pass33": 8
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 50,
+      "pr": 80,
+      "pass": 22,
+      "pass33": 17
+     },
+     {
+      "key": "prac",
+      "label": "Practical",
+      "exam": 25,
+      "pr": 100,
+      "pass": 12,
+      "pass33": 8
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "CE",
+    "name": "Career Education",
+    "fullMark": 50,
+    "passMark": 0,
+    "passMark33": 0,
+    "mj": 2,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "No",
+    "components": [
+     {
+      "key": "ca",
+      "label": "Continuous assessment",
+      "exam": 50,
+      "pr": 100,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "md-IX-X-Commerce",
+  "name": "Class IX-X Commerce",
+  "programs": [
+   "IX",
+   "X"
+  ],
+  "group": "Commerce",
+  "gpaDivision": 9,
+  "deduct4th": 2,
+  "failFor4th": "No",
+  "note": "Edit any number here. Sample values follow the school's ERP chart.",
+  "courses": [
+   {
+    "code": "101",
+    "name": "Bangla 1st Paper",
+    "fullMark": 100,
+    "passMark": 0,
+    "passMark33": 0,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "J-BAN",
+    "jo": 1,
+    "jp": "",
+    "jp33": "",
+    "jointName": "Bangla",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 0,
+      "pass33": 0
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 0,
+      "pass33": 0
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "102",
+    "name": "Bangla 2nd Paper",
+    "fullMark": 100,
+    "passMark": 0,
+    "passMark33": 0,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "J-BAN",
+    "jo": 2,
+    "jp": 90,
+    "jp33": 66,
+    "jointName": "Bangla",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 28,
+      "pass33": 20
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 62,
+      "pass33": 46
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "107",
+    "name": "English 1st Paper",
+    "fullMark": 100,
+    "passMark": 0,
+    "passMark33": 0,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "J-ENG",
+    "jo": 1,
+    "jp": "",
+    "jp33": "",
+    "jointName": "English",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 100,
+      "pr": 90,
+      "pass": 0,
+      "pass33": 0
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "108",
+    "name": "English 2nd Paper",
+    "fullMark": 100,
+    "passMark": 0,
+    "passMark33": 0,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "J-ENG",
+    "jo": 2,
+    "jp": 90,
+    "jp33": 66,
+    "jointName": "English",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 100,
+      "pr": 90,
+      "pass": 90,
+      "pass33": 66
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "109",
+    "name": "Mathematics",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "111",
+    "name": "Islam & Moral Education",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "Islam",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "112",
+    "name": "Hindu Religion & Moral Education",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "Hindu",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "113",
+    "name": "Buddhist Religion & Moral Education",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "Buddhist",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "114",
+    "name": "Christian Religion & Moral Education",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "Christian",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "154",
+    "name": "ICT",
+    "fullMark": 50,
+    "passMark": 23,
+    "passMark33": 17,
+    "mj": 2,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 25,
+      "pr": 100,
+      "pass": 11,
+      "pass33": 8
+     },
+     {
+      "key": "prac",
+      "label": "Practical",
+      "exam": 25,
+      "pr": 100,
+      "pass": 12,
+      "pass33": 8
+     }
+    ]
+   },
+   {
+    "code": "146",
+    "name": "Accounting",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "143",
+    "name": "Business Entrepreneurship",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "152",
+    "name": "Finance & Banking",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "127",
+    "name": "General Science",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "134",
+    "name": "Agriculture Studies",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "fourthOnly",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 25,
+      "pr": 100,
+      "pass": 11,
+      "pass33": 8
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 50,
+      "pr": 80,
+      "pass": 22,
+      "pass33": 17
+     },
+     {
+      "key": "prac",
+      "label": "Practical",
+      "exam": 25,
+      "pr": 100,
+      "pass": 12,
+      "pass33": 8
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "151",
+    "name": "Home Science",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "fourthOnly",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 25,
+      "pr": 100,
+      "pass": 11,
+      "pass33": 8
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 50,
+      "pr": 80,
+      "pass": 22,
+      "pass33": 17
+     },
+     {
+      "key": "prac",
+      "label": "Practical",
+      "exam": 25,
+      "pr": 100,
+      "pass": 12,
+      "pass33": 8
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "CE",
+    "name": "Career Education",
+    "fullMark": 50,
+    "passMark": 0,
+    "passMark33": 0,
+    "mj": 2,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "No",
+    "components": [
+     {
+      "key": "ca",
+      "label": "Continuous assessment",
+      "exam": 50,
+      "pr": 100,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "md-IX-X-Arts",
+  "name": "Class IX-X Arts",
+  "programs": [
+   "IX",
+   "X"
+  ],
+  "group": "Arts",
+  "gpaDivision": 9,
+  "deduct4th": 2,
+  "failFor4th": "No",
+  "note": "Edit any number here. Sample values follow the school's ERP chart.",
+  "courses": [
+   {
+    "code": "101",
+    "name": "Bangla 1st Paper",
+    "fullMark": 100,
+    "passMark": 0,
+    "passMark33": 0,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "J-BAN",
+    "jo": 1,
+    "jp": "",
+    "jp33": "",
+    "jointName": "Bangla",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 0,
+      "pass33": 0
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 0,
+      "pass33": 0
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "102",
+    "name": "Bangla 2nd Paper",
+    "fullMark": 100,
+    "passMark": 0,
+    "passMark33": 0,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "J-BAN",
+    "jo": 2,
+    "jp": 90,
+    "jp33": 66,
+    "jointName": "Bangla",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 28,
+      "pass33": 20
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 62,
+      "pass33": 46
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "107",
+    "name": "English 1st Paper",
+    "fullMark": 100,
+    "passMark": 0,
+    "passMark33": 0,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "J-ENG",
+    "jo": 1,
+    "jp": "",
+    "jp33": "",
+    "jointName": "English",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 100,
+      "pr": 90,
+      "pass": 0,
+      "pass33": 0
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "108",
+    "name": "English 2nd Paper",
+    "fullMark": 100,
+    "passMark": 0,
+    "passMark33": 0,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "J-ENG",
+    "jo": 2,
+    "jp": 90,
+    "jp33": 66,
+    "jointName": "English",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 100,
+      "pr": 90,
+      "pass": 90,
+      "pass33": 66
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "109",
+    "name": "Mathematics",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "111",
+    "name": "Islam & Moral Education",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "Islam",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "112",
+    "name": "Hindu Religion & Moral Education",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "Hindu",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "113",
+    "name": "Buddhist Religion & Moral Education",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "Buddhist",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "114",
+    "name": "Christian Religion & Moral Education",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "Christian",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "154",
+    "name": "ICT",
+    "fullMark": 50,
+    "passMark": 23,
+    "passMark33": 17,
+    "mj": 2,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 25,
+      "pr": 100,
+      "pass": 11,
+      "pass33": 8
+     },
+     {
+      "key": "prac",
+      "label": "Practical",
+      "exam": 25,
+      "pr": 100,
+      "pass": 12,
+      "pass33": 8
+     }
+    ]
+   },
+   {
+    "code": "153",
+    "name": "History of Bangladesh & World Civilization",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "110",
+    "name": "Geography & Environment",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "141",
+    "name": "Economics",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "127",
+    "name": "General Science",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 30,
+      "pr": 100,
+      "pass": 14,
+      "pass33": 10
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 70,
+      "pr": 85.7143,
+      "pass": 31,
+      "pass33": 23
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "134",
+    "name": "Agriculture Studies",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "fourthOnly",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 25,
+      "pr": 100,
+      "pass": 11,
+      "pass33": 8
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 50,
+      "pr": 80,
+      "pass": 22,
+      "pass33": 17
+     },
+     {
+      "key": "prac",
+      "label": "Practical",
+      "exam": 25,
+      "pr": 100,
+      "pass": 12,
+      "pass33": 8
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "151",
+    "name": "Home Science",
+    "fullMark": 100,
+    "passMark": 45,
+    "passMark33": 33,
+    "mj": 1,
+    "role": "fourthOnly",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "Yes",
+    "components": [
+     {
+      "key": "obj",
+      "label": "Objective",
+      "exam": 25,
+      "pr": 100,
+      "pass": 11,
+      "pass33": 8
+     },
+     {
+      "key": "subj",
+      "label": "Subjective",
+      "exam": 50,
+      "pr": 80,
+      "pass": 22,
+      "pass33": 17
+     },
+     {
+      "key": "prac",
+      "label": "Practical",
+      "exam": 25,
+      "pr": 100,
+      "pass": 12,
+      "pass33": 8
+     },
+     {
+      "key": "mt",
+      "label": "Monthly test",
+      "exam": 20,
+      "pr": 50,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   },
+   {
+    "code": "CE",
+    "name": "Career Education",
+    "fullMark": 50,
+    "passMark": 0,
+    "passMark33": 0,
+    "mj": 2,
+    "role": "main",
+    "religion": "",
+    "j": "",
+    "jo": "",
+    "jp": "",
+    "jp33": "",
+    "jointName": "",
+    "isEffective": "No",
+    "components": [
+     {
+      "key": "ca",
+      "label": "Continuous assessment",
+      "exam": 50,
+      "pr": 100,
+      "pass": 0,
+      "pass33": 0
+     }
+    ]
+   }
+  ]
+ }
+]

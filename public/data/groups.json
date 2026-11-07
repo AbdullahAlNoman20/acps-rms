@@ -1,0 +1,18 @@
+[
+ {
+  "id": "General",
+  "name": "General"
+ },
+ {
+  "id": "Science",
+  "name": "Science"
+ },
+ {
+  "id": "Commerce",
+  "name": "Commerce"
+ },
+ {
+  "id": "Arts",
+  "name": "Arts"
+ }
+]

@@ -1,0 +1,17 @@
+[
+ {
+  "id": "SMS-1",
+  "name": "Result published",
+  "text": "Dear Guardian, the {exam} result of {name} (Class {class}-{section}) is published. Please log in to view it. - ACPS"
+ },
+ {
+  "id": "SMS-2",
+  "name": "Low attendance",
+  "text": "Dear Guardian, {name} (Class {class}-{section}) has low attendance. Please contact the class teacher. - ACPS"
+ },
+ {
+  "id": "SMS-3",
+  "name": "Exam notice",
+  "text": "Dear Guardian, the {exam} of Class {class} will start soon. Please check the routine. - ACPS"
+ }
+]

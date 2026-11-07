@@ -1,0 +1,42 @@
+[
+ {
+  "id": "AU-1",
+  "at": "2026-11-02 09:10",
+  "user": "Md. Anisur Rahman",
+  "role": "it_head",
+  "action": "update",
+  "entity": "exams",
+  "ref": "2026-final",
+  "detail": "Opened marks entry window"
+ },
+ {
+  "id": "AU-2",
+  "at": "2026-11-02 14:30",
+  "user": "Md. Anisur Rahman",
+  "role": "it_head",
+  "action": "update",
+  "entity": "exams",
+  "ref": "2026-finaltest",
+  "detail": "Sent to authority"
+ },
+ {
+  "id": "AU-3",
+  "at": "2026-11-03 11:05",
+  "user": "Md. Abdul Karim",
+  "role": "teacher",
+  "action": "create",
+  "entity": "corrections",
+  "ref": "COR-1",
+  "detail": "Correction requested"
+ },
+ {
+  "id": "AU-4",
+  "at": "2026-11-05 16:20",
+  "user": "Md. Abdul Karim",
+  "role": "teacher",
+  "action": "update",
+  "entity": "submissions",
+  "ref": "2026-final",
+  "detail": "Draft saved"
+ }
+]
