@@ -6,7 +6,7 @@ import PageHeader from "../../Components/Shared/PageHeader";
 
 export default function ReportsHub() {
   const base = useBasePath();
-  const cards = [{ key: "transcript", label: "Transcript (one student)", desc: "Open the Results page, choose a student and press Transcript.", to: `${base}/results` }, ...REPORT_TYPES.map((r) => ({ ...r, to: `${base}/reports/${r.key}` }))];
+  const cards = [{ key: "transcript", label: "Transcript (one student)", desc: "Open the Results page, choose a student and press Transcript.", to: `${base}/results` }, ...REPORT_TYPES.map((r) => ({ ...r, to: `${base}/reports/${r.key}` })), { key: "chart", label: "Mark Blueprint chart", desc: "The mark distribution chart of a class, printable (45 or 33 rule).", to: `${base}/data/markDistributions` }];
   return (
     <>
       <PageHeader title="Reports" note="Choose a report. Every report can be printed (or saved as PDF) and exported to Excel." />

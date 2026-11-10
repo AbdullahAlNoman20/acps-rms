@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "seed": "node scripts/generateSeed.mjs",
     "verify:engine": "node scripts/verifyEngine.mjs",
-    "test": "vitest run"
+    "test": "vitest run",
+    "docs": "node scripts/exportDocs.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",

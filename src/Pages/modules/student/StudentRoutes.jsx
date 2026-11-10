@@ -9,6 +9,7 @@ import TicketNewPage from "../../common/TicketNewPage";
 import TicketDetailPage from "../../common/TicketDetailPage";
 import SettingsPage from "../../common/SettingsPage";
 
+import GuidePage from "../../common/GuidePage";
 const StudentRoutes = [
   { index: true, element: <Navigate to="dashboard" replace /> },
   { path: "dashboard", element: <StudentDashboard /> },
@@ -16,5 +17,6 @@ const StudentRoutes = [
   { path: "ssc", element: <StudentSscPage /> }, { path: "contact", element: <StudentContactPage /> },
   { path: "support", element: <TicketsPage /> }, { path: "support/new", element: <TicketNewPage /> }, { path: "support/:id", element: <TicketDetailPage /> },
   { path: "settings", element: <SettingsPage /> },
+  { path: "guide", element: <GuidePage /> },
 ];
 export default StudentRoutes;

@@ -233,7 +233,7 @@ for (const prog of PROGRAMS) for (const version of VERSIONS) for (const section 
 classSections.forEach((cs, i) => {
   const groups = [...new Set(students.filter((s) => s.program === cs.prog && s.version === cs.version && s.section === cs.section).map((s) => s.group))];
   const isDemoClass = cs.prog === "IX" && cs.version === "Bangla" && cs.section === "A";
-  batches.push({ id: `B${bn++}`, teacherId: isDemoClass ? "T01" : teachers[(i + 1) % 8].id, program: cs.prog, version: cs.version, section: cs.section, group: "All", courseCode: "*", isClassTeacher: "Yes" });
+  batches.push({ id: `B${bn++}`, teacherId: isDemoClass ? "T01" : teachers[(i + 1) % 8].id, program: cs.prog, version: cs.version, section: cs.section, group: "All", courseCode: "*", isClassTeacher: "Yes", canEnter: "Yes", grantUntil: "" });
   for (const g of groups) {
     const d = distributions.find((x) => x.programs.includes(cs.prog) && (x.group === "General" || x.group === g));
     const codes = [...new Set(d.courses.map((c) => c.code))];
@@ -242,10 +242,11 @@ classSections.forEach((cs, i) => {
       const studs = students.filter((s) => s.program === cs.prog && s.version === cs.version && s.section === cs.section && s.group === g);
       if (c.religion && !studs.some((s) => s.religion === c.religion)) continue;
       if (c.role === "fourthOnly" && !studs.some((s) => s.fourthSubject === code)) continue;
-      batches.push({ id: `B${bn++}`, teacherId: TEACHER_OF[code], program: cs.prog, version: cs.version, section: cs.section, group: g, courseCode: code, isClassTeacher: "No" });
+      batches.push({ id: `B${bn++}`, teacherId: TEACHER_OF[code], program: cs.prog, version: cs.version, section: cs.section, group: g, courseCode: code, isClassTeacher: "No", canEnter: "Yes", grantUntil: "" });
     }
   }
 });
+{ const g = batches.find((b) => b.teacherId === "T04" && b.courseCode === "136"); if (g) g.grantUntil = "2026-11-30"; }
 writeFileSync(join(OUT, "batches.json"), JSON.stringify(batches));
 
 // ---------- marks ----------
@@ -340,7 +341,7 @@ write("customFields", [
 ]);
 write("settings", [{
   id: "main", schoolName: "Adamjee Cantonment Public School", schoolNameBn: "আদমজী ক্যান্টনমেন্ট পাবলিক স্কুল", address: "Dhaka Cantonment, Dhaka-1206", phone: "02-9834876", website: "www.acps.edu.bd", email: "info@acps.edu.bd",
-  principalName: "Lt Col Byzid Mohammad Tareq Junaed", currentSession: "2026", officePhone: "02-9834876", smsGateway: "Not connected yet (messages are saved in the SMS log)",
+  principalName: "Lt Col Byzid Mohammad Tareq Junaed", currentSession: "2026", officePhone: "02-9834876", smsGateway: "Not connected yet (messages are saved in the SMS log)", checklist: {},
 }]);
 write("yearEnd", [{ id: "YE-2025", session: "2025", status: "rolled", preparedAt: "2025-12-20", approvedBy: "Lt Col Byzid Mohammad Tareq Junaed", note: "Last year's rollover (sample)." }]);
 

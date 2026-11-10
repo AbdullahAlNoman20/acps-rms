@@ -1,0 +1,10 @@
+{
+  "name": "ACPS ResultHub",
+  "short_name": "ResultHub",
+  "description": "Marks to merit - simple, safe and signed.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FBFAEF",
+  "theme_color": "#087A49",
+  "icons": [{ "src": "/logo.png", "sizes": "250x255", "type": "image/png", "purpose": "any" }]
+}

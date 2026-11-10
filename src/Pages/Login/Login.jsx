@@ -7,6 +7,7 @@ import { useToast } from "../../Components/hooks/useToast";
 import { useCollection } from "../../Components/hooks/useCollection";
 import { ROLE_HOME_ROUTE, ROLE_LABELS } from "../../Components/constants/roles";
 import { DEMO_PASSWORD } from "../../config/appConfig";
+import { BRAND } from "../../config/brand";
 import { ui } from "../../theme/ui";
 import { FieldBlock } from "../../Components/Shared/FormFields";
 
@@ -41,8 +42,8 @@ export default function Login() {
         <form onSubmit={submit} noValidate className="rounded-2xl border border-ink-100 bg-white p-6 shadow-card sm:p-8">
           <div className="mb-6 flex flex-col items-center text-center">
             <img src={logo} alt="School logo" className="h-20 w-20 object-contain" />
-            <h1 className="mt-3 text-lg font-bold text-ink-900">Adamjee Cantonment Public School</h1>
-            <p className="text-sm text-ink-500">Result Management System</p>
+            <h1 className="mt-3 text-xl font-bold text-ink-900">{BRAND.name}</h1>
+            <p className="text-sm text-ink-500">{BRAND.tagline}</p>
           </div>
           <div className="space-y-4">
             <FieldBlock field={{ label: "Email" }}>

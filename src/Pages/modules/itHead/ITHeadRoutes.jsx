@@ -27,6 +27,16 @@ import SettingsPage from "../../common/SettingsPage";
 import CrudPage from "../../../Components/Shared/CrudPage";
 import PermissionGate from "../../../Components/Shared/PermissionGate";
 
+import ClassesPage from "../../common/ClassesPage";
+import ClassDetailPage from "../../common/ClassDetailPage";
+import StudentDetailPage from "../../common/StudentDetailPage";
+import GuidePage from "../../common/GuidePage";
+import TeachersPage from "../../common/TeachersPage";
+import TeacherDetailPage from "../../common/TeacherDetailPage";
+import PlannerPage from "../../common/PlannerPage";
+import HubPage from "../../common/HubPage";
+import FuturePlanPage from "../../common/FuturePlanPage";
+import MarkChartPage from "../../common/MarkChartPage";
 const gate = (perm, el) => <PermissionGate perm={perm} showNote>{el}</PermissionGate>;
 
 const ITHeadRoutes = [
@@ -41,11 +51,15 @@ const ITHeadRoutes = [
   { path: "students/import", element: gate("students.manage", <StudentImportPage />) },
   { path: "students/curriculum", element: gate("students.manage", <AssignCurriculumPage />) },
   { path: "data/:entity", element: <CrudPage /> }, { path: "data/:entity/:id", element: <CrudPage /> },
-  { path: "setup", element: <SetupHub /> },
+  { path: "setup", element: <HubPage hub="setup" title="Setup" /> }, { path: "lists", element: <SetupHub /> },
   { path: "rules", element: gate("customize.manage", <RulesPage />) }, { path: "labels", element: gate("customize.manage", <LabelsPage />) },
   { path: "permissions", element: gate("permissions.manage", <PermissionsPage />) },
   { path: "sms", element: <SmsPage /> },
   { path: "support", element: <TicketsPage /> }, { path: "support/new", element: <TicketNewPage /> }, { path: "support/:id", element: <TicketDetailPage /> },
   { path: "audit", element: gate("audit.view", <AuditPage />) }, { path: "settings", element: <SettingsPage /> },
+  { path: "classes", element: <ClassesPage /> }, { path: "classes/:program", element: <ClassDetailPage /> }, { path: "students/:id", element: <StudentDetailPage /> },
+  { path: "teachers", element: gate("users.manage", <TeachersPage />) }, { path: "teachers/:id", element: gate("users.manage", <TeacherDetailPage />) }, { path: "planner", element: gate("batches.manage", <PlannerPage />) },
+  { path: "approvals", element: <HubPage hub="approvals" title="Approvals" /> }, { path: "customize", element: gate("customize.manage", <HubPage hub="customize" title="Customize" />) },
+  { path: "guide", element: <GuidePage /> }, { path: "future", element: gate("customize.manage", <FuturePlanPage />) }, { path: "markchart/:id", element: <MarkChartPage /> },
 ];
 export default ITHeadRoutes;

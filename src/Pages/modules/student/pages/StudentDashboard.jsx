@@ -21,7 +21,7 @@ export default function StudentDashboard() {
   const last = published[published.length - 1]; const res = last ? computeExam(ctx, s, last.id) : null;
   return (
     <>
-      <PageHeader back={false} title={user.role === "parent" ? `Result of ${s.name}` : `Welcome, ${s.name}`} note="Your published results are in 'Results'. You can print them or save as PDF. If something looks wrong, call the school or create a support ticket." />
+      <PageHeader back={false} title={user.role === "parent" ? `Result of ${s.name}` : `Welcome, ${s.name}`} subtitle="Your signed and published results appear here" />
       <div className="grid gap-4 lg:grid-cols-2">
         <Card title="Student information">
           <dl className="grid grid-cols-2 gap-3 text-sm">{[["Student ID", s.id], ["Class", `${s.program}-${s.section}`], ["Roll", s.roll], ["Version", s.version], ["Group", s.group], ["Shift", s.shift], ["Session", s.session], ["Guardian mobile", s.guardianMobile]].map(([k, v]) => <div key={k}><dt className="text-xs text-ink-500">{k}</dt><dd className="font-semibold text-ink-900">{v}</dd></div>)}</dl>

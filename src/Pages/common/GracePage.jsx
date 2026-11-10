@@ -50,7 +50,7 @@ export default function GracePage() {
   ];
   return (
     <>
-      <PageHeader title="Grace marks" note={<>Small extra marks for a student who is just below the pass mark. Limit: <b>{max} marks</b> in <b>{maxSub} subject</b> per student (change it in Rules). The IT Head enters, the Exam Authority approves. Original marks are never changed.</>} />
+      <PageHeader keepNote title="Grace marks" note={<>Small extra marks for a student who is just below the pass mark. Limit: <b>{max} marks</b> in <b>{maxSub} subject</b> per student (change it in Rules). The IT Head enters, the Exam Authority approves. Original marks are never changed.</>} />
       {can("grace.entry") && (
         <Card className="mb-4" title="Add grace marks" subtitle="Only subjects the student failed are listed">
           <form onSubmit={add} noValidate className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

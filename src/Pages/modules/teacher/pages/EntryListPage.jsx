@@ -20,10 +20,11 @@ export default function EntryListPage() {
   if (loading) return <Loader />;
   const exams = data.exams.filter((e) => e.type === "school" && e.status !== "setup");
   const exam = exams.find((e) => e.id === (examId || exams.find((x) => x.status === "entry_open")?.id || exams[exams.length - 1]?.id));
+  const open = exam?.status === "entry_open";
+  const canOpen = (b) => open || (b.grantUntil && b.grantUntil >= new Date().toISOString().slice(0, 10) && exam?.status !== "published");
   const mine = data.batches.filter((b) => b.teacherId === user.teacherId && b.courseCode !== "*" && exam?.programs.includes(b.program));
   const cn = (c) => data.courses.find((x) => x.code === c)?.name || c;
-  const rows = mine.map((b) => ({ id: b.id, b, cls: `Class ${b.program}-${b.section} (${b.version}${b.group !== "All" ? `, ${b.group}` : ""})`, subject: cn(b.courseCode), status: exam.status !== "entry_open" ? "locked" : data.submissions.find((s) => s.id === `${exam.id}|${b.id}`)?.status || "not_started" }));
-  const open = exam?.status === "entry_open";
+  const rows = mine.map((b) => ({ id: b.id, b, cls: `Class ${b.program}-${b.section} (${b.version}${b.group !== "All" ? `, ${b.group}` : ""})`, subject: cn(b.courseCode), status: !canOpen(b) ? "locked" : data.submissions.find((s) => s.id === `${exam.id}|${b.id}`)?.status || "not_started" }));
   return (
     <>
       <PageHeader title="Enter marks" note="Choose the exam. Then press 'Enter marks' next to your class and subject. You can save a draft and come back; press Submit only when all marks are correct." />
@@ -32,7 +33,7 @@ export default function EntryListPage() {
       {!open && <NoteBox tone="info" className="mb-4">You can only look at marks of this exam now. If you need a change, send a correction request.</NoteBox>}
       <DataTable rows={rows} pageSize={20} empty="No subjects assigned to you for this exam" emptyText="Ask the IT Head to assign your classes in Teacher batches." columns={[{ key: "cls", label: "Class" }, { key: "subject", label: "Subject" },
         { key: "status", label: "Status", render: (r) => <StatusBadge status={r.status === "not_started" ? "missing" : r.status} label={r.status === "not_started" ? "Not started" : undefined} /> },
-        { key: "o", label: "", render: (r) => <Button to={`${base}/entry/${exam.id}/${r.b.id}`} size="sm" variant={open && r.status !== "submitted" ? "primary" : "secondary"} icon={open && r.status !== "submitted" ? FiEdit3 : FiEye}>{open && r.status !== "submitted" ? "Enter marks" : "View marks"}</Button> }]} />
+        { key: "o", label: "", render: (r) => <Button to={`${base}/entry/${exam.id}/${r.b.id}`} size="sm" variant={canOpen(r.b) && r.status !== "submitted" ? "primary" : "secondary"} icon={canOpen(r.b) && r.status !== "submitted" ? FiEdit3 : FiEye}>{canOpen(r.b) && r.status !== "submitted" ? "Enter marks" : "View marks"}</Button> }]} />
     </>
   );
 }

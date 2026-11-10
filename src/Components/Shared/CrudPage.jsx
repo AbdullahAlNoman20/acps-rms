@@ -2,7 +2,7 @@
 // IT Head can add, edit, copy, delete, search, filter and export every list. Custom fields appear automatically.
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate, useParams, Link } from "react-router-dom";
-import { FiPlus, FiEdit2, FiCopy, FiDownload, FiSave, FiSearch, FiTrash2 } from "react-icons/fi";
+import { FiPlus, FiEdit2, FiCopy, FiDownload, FiSave, FiSearch, FiTrash2, FiEye, FiPrinter } from "react-icons/fi";
 import { ENTITIES } from "../constants/entitySchemas";
 import { useCollections } from "../hooks/useCollection";
 import { useAuth } from "../hooks/useAuth";
@@ -66,7 +66,9 @@ function CrudList({ k }) {
     ...cfs.map((f) => ({ key: f.key, label: f.label, render: (r) => displayValue(f, r.custom?.[f.key], data) })),
     { key: "_a", label: "Actions", render: (r) => (
       <div className="flex flex-wrap gap-1.5">
-        <Button to={`${base}/data/${k}/${r.id}`} variant="secondary" size="sm" icon={canEdit ? FiEdit2 : FiSearch}>{canEdit ? "Edit" : "View"}</Button>
+        {ent.viewPath && <Button to={`${base}/${ent.viewPath}/${r.id}`} variant="soft" size="sm" icon={FiEye}>View</Button>}
+        {ent.printPath && <Button to={`${base}/${ent.printPath}/${r.id}`} variant="soft" size="sm" icon={FiPrinter}>Chart</Button>}
+        {(canEdit || !ent.viewPath) && <Button to={`${base}/data/${k}/${r.id}`} variant="secondary" size="sm" icon={canEdit ? FiEdit2 : FiSearch}>{canEdit ? "Edit" : "View"}</Button>}
         {canEdit && ent.canCopy && <Button variant="secondary" size="sm" icon={FiCopy} onClick={() => copy(r)}>Copy</Button>}
         {canEdit && ent.canDelete !== false && <ConfirmButton icon={FiTrash2} onConfirm={() => remove(r)} />}
       </div>) },
@@ -152,7 +154,7 @@ function CrudForm({ k, id }) {
         </Card>
       )}
       {canEdit && (
-        <div className="sticky bottom-0 -mx-3 mt-5 flex flex-wrap gap-2 border-t border-ink-100 bg-cream-50/95 px-3 py-3 backdrop-blur sm:mx-0 sm:rounded-xl sm:border">
+        <div className="sticky bottom-[60px] z-30 -mx-3 mt-5 md:bottom-0 flex flex-wrap gap-2 border-t border-ink-100 bg-cream-50/95 px-3 py-3 backdrop-blur sm:mx-0 sm:rounded-xl sm:border">
           <Button type="submit" icon={FiSave} disabled={busy}>{busy ? "Saving..." : "Save"}</Button>
           {(ent.formActions || []).map((a) => <Button key={a.label} variant="soft" onClick={() => { setForm(a.run(form, data)); toast.push("Done. Check the numbers, then press Save."); }}>{a.label}</Button>)}
           <Button variant="secondary" to={`${base}/data/${k}`}>Cancel</Button>

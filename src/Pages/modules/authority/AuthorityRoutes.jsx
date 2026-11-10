@@ -20,6 +20,11 @@ import AuditPage from "../../common/AuditPage";
 import SettingsPage from "../../common/SettingsPage";
 import CrudPage from "../../../Components/Shared/CrudPage";
 
+import ClassesPage from "../../common/ClassesPage";
+import ClassDetailPage from "../../common/ClassDetailPage";
+import StudentDetailPage from "../../common/StudentDetailPage";
+import GuidePage from "../../common/GuidePage";
+import HubPage from "../../common/HubPage";
 const AuthorityRoutes = [
   { index: true, element: <Navigate to="dashboard" replace /> },
   { path: "dashboard", element: <AuthorityDashboard /> },
@@ -33,5 +38,7 @@ const AuthorityRoutes = [
   { path: "sms", element: <SmsPage /> }, { path: "audit", element: <AuditPage /> },
   { path: "support", element: <TicketsPage /> }, { path: "support/new", element: <TicketNewPage /> }, { path: "support/:id", element: <TicketDetailPage /> },
   { path: "settings", element: <SettingsPage /> },
+  { path: "classes", element: <ClassesPage /> }, { path: "classes/:program", element: <ClassDetailPage /> }, { path: "students/:id", element: <StudentDetailPage /> },
+  { path: "approvals", element: <HubPage hub="approvals" title="Approvals" /> }, { path: "guide", element: <GuidePage /> },
 ];
 export default AuthorityRoutes;

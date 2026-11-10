@@ -40,7 +40,7 @@ export const ENTITIES = {
     beforeSave: (r) => ({ ...r, id: r.code }),
   },
   students: {
-    title: "Students", single: "Student", collection: "students", perm: "students.manage", group: "People", exportName: "students", pageSize: 20,
+    title: "Students", single: "Student", collection: "students", perm: "students.manage", group: "People", exportName: "students", pageSize: 20, viewPath: "students",
     note: "Add, correct or search a student here. To add many students at once use 'Import students'. To switch a student to the 33 pass rule use 'Special pass (33)'.",
     searchKeys: ["id", "name", "guardianMobile"],
     filters: [{ key: "program", label: "Class", optionsFrom: from("programs") }, { key: "version", label: "Version", optionsFrom: from("versions") }, { key: "section", label: "Section", optionsFrom: from("sections") }, { key: "status", label: "Status", options: ["Active", "Passed Out", "TC", "Inactive"] }],
@@ -74,9 +74,9 @@ export const ENTITIES = {
     title: "Teacher batches", single: "Batch", collection: "batches", perm: "batches.manage", group: "People", pageSize: 20,
     note: "A batch tells the system which teacher enters marks for which class, section and subject. Use * as course for the class teacher of a section.",
     filters: [{ key: "program", label: "Class", optionsFrom: from("programs") }, { key: "version", label: "Version", optionsFrom: from("versions") }, { key: "section", label: "Section", optionsFrom: from("sections") }, { key: "teacherId", label: "Teacher", optionsFrom: from("teachers") }],
-    columns: ["teacherId", "program", "version", "section", "group", "courseCode", "isClassTeacher"],
+    columns: ["teacherId", "program", "version", "section", "group", "courseCode", "isClassTeacher", "canEnter"],
     fields: [selFrom("teacherId", "Teacher", "teachers", { required: true }), selFrom("program", "Class", "programs", { required: true }), selFrom("version", "Version", "versions", { required: true }), selFrom("section", "Section", "sections", { required: true }),
-      sel("group", "Group", ["All", "General", "Science", "Commerce", "Arts"], { required: true }), { key: "courseCode", label: "Course", type: "select", optionsFrom: courseOpt, extraOptions: [{ value: "*", label: "* (class teacher)" }], required: true }, sel("isClassTeacher", "Class teacher?", YN)],
+      sel("group", "Group", ["All", "General", "Science", "Commerce", "Arts"], { required: true }), { key: "courseCode", label: "Course", type: "select", optionsFrom: courseOpt, extraOptions: [{ value: "*", label: "* (class teacher)" }], required: true }, sel("isClassTeacher", "Class teacher?", YN), sel("canEnter", "Allowed to enter marks?", ["Yes", "No"], { help: "No = this teacher cannot enter marks for this subject." }), { key: "grantUntil", label: "Extra marks-entry access until", type: "date", help: "Lets the teacher enter marks after the normal last date, up to this date." }],
   },
   customFields: {
     title: "Custom fields", single: "Custom field", collection: "customFields", perm: "customize.manage", group: "Customize",
@@ -126,7 +126,7 @@ export const ENTITIES = {
     beforeSave: (r) => ({ ...r, id: r.id || `cur-${r.program}-${r.group}` }),
   },
   markDistributions: {
-    title: "Mark distribution", single: "Mark distribution", collection: "markDistributions", perm: "setup.manage", group: "Course setup", canCopy: true,
+    title: "Mark Blueprint", single: "Mark distribution", collection: "markDistributions", perm: "setup.manage", group: "Course setup", canCopy: true, printPath: "markchart",
     note: "The most important setup. For every subject: full marks, pass marks (45 rule and 33 rule), and its parts (Objective, Subjective, Practical, Monthly test...). PR% means how many percent of the raw marks count (raw x PR / 100). Joint subjects (Bangla 1st + 2nd) share a Joint code and a joint pass mark.",
     columns: ["name", "programs", "group", "gpaDivision"],
     formActions: [{ label: "Fill 33 pass marks from percent", run: (form, lookups) => {

@@ -10,6 +10,7 @@
   "principalName": "Lt Col Byzid Mohammad Tareq Junaed",
   "currentSession": "2026",
   "officePhone": "02-9834876",
-  "smsGateway": "Not connected yet (messages are saved in the SMS log)"
+  "smsGateway": "Not connected yet (messages are saved in the SMS log)",
+  "checklist": {}
  }
 ]

@@ -3,7 +3,7 @@ import { FiClipboard, FiClock, FiEdit3, FiPercent, FiTrendingUp, FiArrowRight, F
 import { useCollections } from "../../../../Components/hooks/useCollection";
 import { useAuth } from "../../../../Components/hooks/useAuth";
 import PageHeader from "../../../../Components/Shared/PageHeader";
-import StatCard from "../../../../Components/Shared/StatCard";
+import FeatureTiles from "../../../../Components/Shared/FeatureTiles";
 import Card from "../../../../Components/Shared/Card";
 import StatusBadge from "../../../../Components/Shared/StatusBadge";
 import Loader from "../../../../Components/Shared/Loader";
@@ -25,8 +25,9 @@ export default function AuthorityDashboard() {
   ].filter((i) => i.show);
   return (
     <>
-      <PageHeader back={false} title={`Welcome, ${user.name}`} note="Things waiting for you are shown below. Open an exam to read the results, then press Review, Sign or Return (with a reason). Your digital signature prints on the transcripts." />
-      <div className="mb-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{items.map((i) => <StatCard key={i.label} icon={i.icon} label={i.label} value={i.value} tone={i.tone} to={`${BASE}/${i.to}`} />)}</div>
+      <PageHeader back={false} title={`Welcome, ${user.name}`} subtitle="Open an exam to read the results, then Review, Sign or Return it" />
+      <FeatureTiles base={BASE} tiles={[{ feature: "examJourney", to: "exams", badge: waiting.length }, { feature: "approvals", to: "approvals", badge: items.filter((i) => i.to !== "exams").reduce((n, i) => n + i.value, 0) }, { feature: "resultBoard", to: "results" }, { feature: "classExplorer", to: "classes" }]} />
+      <div className="mb-5" />
       <Card title="Exams">
         <ul className="divide-y divide-ink-100">
           {data.exams.filter((e) => e.type === "school").map((e) => (

@@ -47,7 +47,7 @@ export default function ExtensionsPage() {
   ];
   return (
     <>
-      <PageHeader title="Time extensions" note={<>When a teacher needs more time for marks entry: <b>Teacher asks</b> then <b>IT Head recommends</b> then <b>Principal approves</b>. One exam can be extended at most {max} times. After approval the end date moves automatically.</>}
+      <PageHeader keepNote title="Time extensions" note={<>When a teacher needs more time for marks entry: <b>Teacher asks</b> then <b>IT Head recommends</b> then <b>Principal approves</b>. One exam can be extended at most {max} times. After approval the end date moves automatically.</>}
         actions={can("extension.request") && <Button to={`${base}/extension/new`} icon={FiPlus}>Ask for more time</Button>} />
       <DataTable columns={columns} rows={rows} empty="No extension requests" emptyText="Requests will appear here." />
     </>

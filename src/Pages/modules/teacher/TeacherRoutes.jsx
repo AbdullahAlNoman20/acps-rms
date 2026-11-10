@@ -17,6 +17,10 @@ import TicketNewPage from "../../common/TicketNewPage";
 import TicketDetailPage from "../../common/TicketDetailPage";
 import SettingsPage from "../../common/SettingsPage";
 
+import ClassesPage from "../../common/ClassesPage";
+import ClassDetailPage from "../../common/ClassDetailPage";
+import StudentDetailPage from "../../common/StudentDetailPage";
+import GuidePage from "../../common/GuidePage";
 const TeacherRoutes = [
   { index: true, element: <Navigate to="dashboard" replace /> },
   { path: "dashboard", element: <TeacherDashboard /> },
@@ -29,5 +33,6 @@ const TeacherRoutes = [
   { path: "sms", element: <SmsPage /> },
   { path: "support", element: <TicketsPage /> }, { path: "support/new", element: <TicketNewPage /> }, { path: "support/:id", element: <TicketDetailPage /> },
   { path: "settings", element: <SettingsPage /> },
+  { path: "classes", element: <ClassesPage /> }, { path: "classes/:program", element: <ClassDetailPage /> }, { path: "students/:id", element: <StudentDetailPage /> }, { path: "guide", element: <GuidePage /> },
 ];
 export default TeacherRoutes;

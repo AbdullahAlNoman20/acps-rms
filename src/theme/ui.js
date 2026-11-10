@@ -1,6 +1,6 @@
 // CENTRAL STYLE CLASSES. Every shared component takes its look from here + tokens.js.
 export const ui = {
-  input: "w-full rounded-lg border border-ink-200 bg-white px-3 py-2.5 text-sm text-ink-800 outline-none transition focus:border-brand-500 focus:ring-2 focus:ring-brand-100 disabled:bg-ink-50 disabled:text-ink-500",
+  input: "w-full rounded-lg border border-ink-200 bg-white px-3 py-3 text-base text-ink-800 sm:py-2.5 sm:text-sm outline-none transition focus:border-brand-500 focus:ring-2 focus:ring-brand-100 disabled:bg-ink-50 disabled:text-ink-500",
   label: "mb-1 block text-xs font-semibold text-ink-700",
   help: "mt-1 text-xs text-ink-500",
   error: "mt-1 text-xs font-medium text-crimson-600",
@@ -12,7 +12,7 @@ export const ui = {
     soft: "bg-brand-50 text-brand-700 hover:bg-brand-100",
     ghost: "text-ink-600 hover:bg-ink-100",
   },
-  btnSize: { md: "px-4 py-2.5 text-sm", sm: "px-3 py-1.5 text-xs" },
+  btnSize: { md: "min-h-[44px] px-4 py-2.5 text-sm", sm: "min-h-[36px] px-3 py-1.5 text-xs" },
   card: "rounded-xl border border-ink-100 bg-white shadow-card",
   th: "bg-ink-50 px-3 py-2.5 text-left text-xs font-semibold text-ink-500",
   td: "px-3 py-2.5 align-top text-sm text-ink-700",

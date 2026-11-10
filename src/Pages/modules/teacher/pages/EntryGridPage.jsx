@@ -23,7 +23,7 @@ export default function EntryGridPage() {
   const { examId, batchId } = useParams();
   const { data, loading } = useCollections(["exams", "batches", "students", "courses", "markDistributions", "marks", "submissions", "statusCodes", "ruleFormulas"]);
   const { user, can } = useAuth(); const toast = useToast(); const nav = useNavigate(); const base = useBasePath();
-  const [vals, setVals] = useState(null); const [errors, setErrors] = useState({}); const [busy, setBusy] = useState(false);
+  const [view, setView] = useState("all"); const [vals, setVals] = useState(null); const [errors, setErrors] = useState({}); const [busy, setBusy] = useState(false);
   const exam = data.exams?.find((e) => e.id === examId); const batch = data.batches?.find((b) => b.id === batchId);
 
   const ctx = useMemo(() => {
@@ -46,10 +46,13 @@ export default function EntryGridPage() {
   if (loading || !vals) return (loading || !ctx ? (loading ? <Loader /> : <><PageHeader title="Not found" /><NoteBox tone="warning">This batch or exam does not exist.</NoteBox></>) : <Loader />);
   const sub = data.submissions.find((s) => s.id === `${examId}|${batchId}`);
   const mineBatch = batch.teacherId === user.teacherId;
-  const timeOk = exam.status === "entry_open" && daysLeft(exam.entryEnd) >= 0;
-  const editable = can("entry.marks") && mineBatch && timeOk && sub?.status !== "submitted";
-  const why = !mineBatch ? "This batch belongs to another teacher." : sub?.status === "submitted" ? "You already submitted these marks. To change them send a correction request." : exam.status !== "entry_open" ? "Marks entry is closed for this exam." : !timeOk ? "The last date is over. Ask for more time if needed." : "";
-  const { row, students } = ctx; const comps = row?.components || [];
+  const granted = !!batch.grantUntil && daysLeft(batch.grantUntil) >= 0 && exam.status !== "published";
+  const timeOk = (exam.status === "entry_open" && daysLeft(exam.entryEnd) >= 0) || granted;
+  const allowed = batch.canEnter !== "No";
+  const editable = can("entry.marks") && mineBatch && allowed && timeOk && sub?.status !== "submitted";
+  const why = !mineBatch ? "This batch belongs to another teacher." : !allowed ? "The IT Head has stopped marks entry for this subject." : sub?.status === "submitted" ? "You already submitted these marks. To change them send a correction request." : exam.status !== "entry_open" && !granted ? "Marks entry is closed for this exam." : !timeOk ? "The last date is over. Ask for more time if needed." : "";
+  const { row, students } = ctx; const allComps = row?.components || [];
+  const monthlyOnly = view === "monthly"; const comps = monthlyOnly ? allComps.filter((c) => c.key.startsWith("mt")) : allComps;
   const cname = data.courses.find((c) => c.code === batch.courseCode)?.name;
   const conv = (raw, pr) => evaluate(data.ruleFormulas.find((f) => f.key === "componentConvert")?.expr || DEFAULT_FORMULAS.componentConvert, { raw, pr }, 0);
 
@@ -57,7 +60,7 @@ export default function EntryGridPage() {
   const setStatus = (id, status) => setVals({ ...vals, [id]: { ...vals[id], status } });
   function validate(final) {
     const er = {};
-    students.forEach((s) => { const v = vals[s.id]; comps.forEach((c) => { const x = v.comps[c.key];
+    students.forEach((s) => { const v = vals[s.id]; allComps.forEach((c) => { const x = v.comps[c.key];
       if (x === "" || x === undefined) { if (final && !v.status) er[`${s.id}.${c.key}`] = "Enter marks or choose a status."; return; }
       if (Number(x) < 0 || Number(x) > c.exam) er[`${s.id}.${c.key}`] = `0 to ${c.exam}`; }); });
     setErrors(er); return Object.keys(er).length === 0;
@@ -77,7 +80,8 @@ export default function EntryGridPage() {
         actions={<><StatusBadge status={sub?.status || "missing"} label={sub ? undefined : "Not started"} />{exam.status === "entry_open" && <CountdownBadge date={exam.entryEnd} />}</>}
         note={editable ? <>Type marks for each student. Each box shows the highest possible marks. If a student was absent choose a status instead. Press <b>Save draft</b> any time, and <b>Submit</b> when everything is correct (you cannot change after submit).</> : why} noteTone={editable ? "tip" : "warning"} />
       {!row && <NoteBox tone="warning" className="mb-4">This subject has no mark distribution. Ask the IT Head to set it in Mark distribution.</NoteBox>}
-      <p className="mb-3 text-xs text-ink-500">Last date: {fmtDate(exam.entryEnd)} - {students.length} students</p>
+      <div className="mb-3 flex flex-wrap items-center justify-between gap-2"><p className="text-xs text-ink-500">Last date: {fmtDate(exam.entryEnd)}{granted ? ` (extra access until ${fmtDate(batch.grantUntil)})` : ""} - {students.length} students</p>
+        {allComps.some((c) => c.key.startsWith("mt")) && <div className="inline-flex rounded-lg border border-ink-200 bg-white p-0.5 text-xs font-semibold" role="group" aria-label="Show">{[["all", "All parts"], ["monthly", "Monthly test only"]].map(([k, l]) => <button key={k} type="button" onClick={() => setView(k)} className={`rounded-md px-3 py-1.5 ${view === k ? "bg-brand-600 text-white" : "text-ink-600"}`}>{l}</button>)}</div>}</div>
       <div className="space-y-3">
         {students.map((s) => {
           const v = vals[s.id]; const total = comps.reduce((t, c) => t + (v.comps[c.key] === "" || v.comps[c.key] === undefined ? 0 : conv(Number(v.comps[c.key]), c.pr)), 0);
@@ -99,9 +103,9 @@ export default function EntryGridPage() {
         {students.length === 0 && <NoteBox tone="info">No students in this batch.</NoteBox>}
       </div>
       {editable && (
-        <div className="sticky bottom-0 -mx-3 mt-5 flex flex-wrap gap-2 border-t border-ink-100 bg-cream-50/95 px-3 py-3 backdrop-blur sm:mx-0 sm:rounded-xl sm:border">
+        <div className="sticky bottom-[60px] z-30 -mx-3 mt-5 md:bottom-0 flex flex-wrap gap-2 border-t border-ink-100 bg-cream-50/95 px-3 py-3 backdrop-blur sm:mx-0 sm:rounded-xl sm:border">
           <Button variant="secondary" icon={FiSave} disabled={busy} onClick={() => save(false)}>Save draft</Button>
-          <Button icon={FiSend} disabled={busy} onClick={() => save(true)}>Submit marks</Button>
+          {!monthlyOnly && <Button icon={FiSend} disabled={busy} onClick={() => save(true)}>Submit marks</Button>}{monthlyOnly && <span className="self-center text-xs text-ink-500">Switch to "All parts" to submit.</span>}
         </div>)}
     </>
   );

@@ -5,15 +5,15 @@ import logo from "../../assets/logo.png";
 import { useAuth } from "../hooks/useAuth";
 import { useLabel } from "../hooks/useLabel";
 import { cx } from "../utils/format";
-import { SCHOOL_SHORT, APP_FULL_NAME } from "../../config/appConfig";
+import { BRAND, FEATURES } from "../../config/brand";
 
 function Item({ item, base, onNavigate }) {
   const t = useLabel();
-  const Icon = item.icon;
+  const f = FEATURES[item.feature]; const Icon = f.icon;
   return (
     <NavLink to={`${base}/${item.to}`} end={item.to === "dashboard"} onClick={onNavigate}
       className={({ isActive }) => cx("flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition", isActive ? "bg-white/15 text-white" : "text-white/70 hover:bg-white/10 hover:text-white")}>
-      {Icon && <Icon size={18} className="shrink-0" />}<span className="truncate">{t(`nav.${item.to}`, item.label)}</span>
+      {Icon && <Icon size={18} className="shrink-0" />}<span className="truncate">{t(`nav.${item.to}`, item.label || f.name)}</span>
     </NavLink>
   );
 }
@@ -22,12 +22,12 @@ export default function Sidebar({ nav, base, open, onClose }) {
   const { can, logout } = useAuth();
   const [closed, setClosed] = useState({});
   useEffect(() => { document.body.style.overflow = open ? "hidden" : ""; return () => { document.body.style.overflow = ""; }; }, [open]);
-  const sections = nav.map((s) => ({ ...s, items: s.items.filter((i) => can(i.perm)) })).filter((s) => s.items.length);
+  const sections = nav.map((s) => ({ ...s, items: s.items.filter((i) => !i.perm || i.perm.split("|").some((p) => can(p))) })).filter((s) => s.items.length);
   const body = (
     <div className="flex h-full flex-col bg-brand-800 text-white">
       <div className="flex items-center gap-3 border-b border-white/10 px-4 py-4">
         <img src={logo} alt="School logo" className="h-11 w-11 rounded-full bg-white object-contain p-0.5" />
-        <div className="min-w-0 leading-tight"><p className="truncate text-sm font-bold">{SCHOOL_SHORT} RMS</p><p className="truncate text-[11px] text-white/60">{APP_FULL_NAME}</p></div>
+        <div className="min-w-0 leading-tight"><p className="truncate text-sm font-bold">{BRAND.name}</p><p className="truncate text-[11px] text-white/60">Adamjee Cantonment Public School</p></div>
         <button type="button" onClick={onClose} aria-label="Close menu" className="ml-auto rounded p-1.5 text-white/70 hover:bg-white/10 md:hidden"><FiX size={18} /></button>
       </div>
       <nav className="flex-1 space-y-1 overflow-y-auto overscroll-contain p-3">

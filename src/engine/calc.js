@@ -214,3 +214,10 @@ export function assignPositions(items, ctx) {
   });
   return items;
 }
+
+// Subjects a student studies (religion and 4th subject applied). Used by Student Book and Class Explorer.
+export function studentSubjects(ctx, student) {
+  const dist = pickDistribution(ctx, student);
+  if (!dist) return [];
+  return selectRows(dist, student).map(({ c, isFourth }) => ({ code: c.code, name: c.name, isFourth, fullMark: c.fullMark, passMark: c.passMark, isEffective: c.isEffective === "Yes", joint: c.jointName || "" }));
+}
